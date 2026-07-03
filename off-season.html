@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Off-Season Program — GKU Performance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-lockup">
+      <div class="gku-mark">GK<span style="color:var(--blue-bright)">U</span><small>GOALKEEPERS UNIVERSITY</small></div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="off-season.html">Off-Season</a>
+      <a href="in-season.html">In-Season</a>
+      <a href="testing-guide.html">Testing</a>
+      <a href="exercise-library.html">Exercise Library</a>
+    </nav>
+    <div class="pb-credit">Programmed by <b>Performance Bacon</b></div>
+  </div>
+</header>
+
+<section class="hero" style="padding:36px 20px 28px;">
+  <div class="wrap">
+    <span class="tag">Off-Season · 12 Weeks · 3x/Week</span>
+    <h1>Off-Season Program</h1>
+    <p>Triphasic block structure: Eccentric (Wk1-4) → Isometric (Wk5-8) → Concentric/Power (Wk9-12). Full weight room + field. No 1RM needed — loading is RPE-autoregulated throughout.</p>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <div class="tier-tabs" id="tierTabs">
+    <button data-tier="beginner" class="active">Beginner</button>
+    <button data-tier="intermediate">Intermediate</button>
+    <button data-tier="advanced">Advanced</button>
+  </div>
+
+  <div class="week-nav">
+    <label for="weekSelect" style="font-family:'Barlow Condensed',sans-serif; font-weight:600; color:var(--gray-300); font-size:0.85rem;">WEEK</label>
+    <select id="weekSelect"></select>
+    <span class="block-pill" id="blockPill"></span>
+    <span class="progress-mini"></span>
+  </div>
+
+  <div id="deloadBanner" class="deload-banner" style="display:none;">Deload week — volume down ~40-50%. Keep intensity feel light, movement quality high, and protect sleep. This is what makes next block's overload work.</div>
+
+  <div id="blockFocus" style="color:var(--gray-300); font-size:0.9rem; margin-bottom:18px;"></div>
+
+  <div id="sessions"></div>
+
+  <div class="card" style="margin-top:10px;">
+    <h3 style="font-size:1rem;">RPE quick reference</h3>
+    <p style="margin:0;">RPE 5 = easy, could do 5+ more reps · RPE 6-7 = moderate, 3-4 reps left in tank · RPE 8 = hard, 1-2 reps left · RPE 9 = near-max, 1 rep left · RPE 10 = max effort. No tested 1RM needed — this scale self-corrects as you get stronger. Retest with the <a href="testing-guide.html">testing guide</a> every 4-6 weeks to confirm progress.</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    GKU × Performance Bacon — Off-Season Program. Stop and get evaluated for sharp pain, joint instability, or numbness/tingling — do not train through red flags.
+  </div>
+</footer>
+
+<script src="assets/js/data-offseason.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+(function () {
+  var DATA = window.OFFSEASON_DATA;
+  var tier = 'beginner';
+  var weekSelect = document.getElementById('weekSelect');
+  var sessionsEl = document.getElementById('sessions');
+  var blockPill = document.getElementById('blockPill');
+  var blockFocus = document.getElementById('blockFocus');
+  var deloadBanner = document.getElementById('deloadBanner');
+
+  function weekLabel(weekNum, tierData) {
+    var block = tierData.blocks.find(function (b) { return b.weeks.indexOf(weekNum) > -1; });
+    var wIdx = block.weeks.indexOf(weekNum) + 1;
+    return 'Week ' + weekNum + ' (Block ' + block.id + ', wk ' + wIdx + '/4)';
+  }
+
+  function populateWeeks() {
+    var tierData = DATA.tiers[tier];
+    var weeks = Object.keys(tierData.weeks).map(Number).sort(function (a, b) { return a - b; });
+    weekSelect.innerHTML = '';
+    weeks.forEach(function (w) {
+      var opt = document.createElement('option');
+      opt.value = w;
+      opt.textContent = weekLabel(w, tierData);
+      weekSelect.appendChild(opt);
+    });
+  }
+
+  function renderWeek() {
+    var tierData = DATA.tiers[tier];
+    var weekNum = Number(weekSelect.value);
+    var week = tierData.weeks[weekNum];
+    var block = tierData.blocks.find(function (b) { return b.id === week.blockId; });
+
+    blockPill.textContent = block.name;
+    blockFocus.textContent = block.focus;
+    deloadBanner.style.display = week.deload ? 'block' : 'none';
+
+    sessionsEl.innerHTML = '';
+    week.sessions.forEach(function (sess, i) {
+      var id = tier + '-w' + weekNum + '-d' + i;
+      var div = document.createElement('div');
+      div.className = 'session';
+      div.dataset.sessionId = id;
+
+      var rows = sess.slots.map(function (s) {
+        return '<tr><td><span class="slot-tag">' + s.tag + '</span>' + s.exercise + '</td>' +
+          '<td>' + s.sets + '</td><td>' + s.reps + '</td><td>' + s.load + '</td><td>' + s.rest + '</td>' +
+          '<td class="notes">' + s.notes + '</td></tr>';
+      }).join('');
+
+      div.innerHTML =
+        '<div class="session-head">' +
+          '<div><h3>' + sess.day + ' — ' + sess.title + '</h3><div class="session-meta">' + sess.meta + '</div></div>' +
+          '<label class="session-check" onclick="event.stopPropagation()"><input type="checkbox"> Done</label>' +
+          '<span class="chevron">▾</span>' +
+        '</div>' +
+        '<div class="session-body">' +
+          '<p style="font-size:0.82rem; color:var(--gray-300);">' + sess.primer + '</p>' +
+          '<table class="prog"><thead><tr><th>Exercise</th><th>Sets</th><th>Reps</th><th>Load</th><th>Rest</th><th>Notes</th></tr></thead>' +
+          '<tbody>' + rows + '</tbody></table>' +
+        '</div>';
+      sessionsEl.appendChild(div);
+    });
+
+    gkuInitSessions(sessionsEl, 'gku-offseason-' + tier);
+  }
+
+  gkuInitTiers(function (t) {
+    tier = t;
+    populateWeeks();
+    weekSelect.value = weekSelect.options[0].value;
+    renderWeek();
+  });
+
+  weekSelect.addEventListener('change', renderWeek);
+
+  populateWeeks();
+  renderWeek();
+})();
+</script>
+</body>
+</html>

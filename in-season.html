@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>In-Season Program — GKU Performance</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div class="brand-lockup">
+      <div class="gku-mark">GK<span style="color:var(--blue-bright)">U</span><small>GOALKEEPERS UNIVERSITY</small></div>
+    </div>
+    <nav class="main-nav">
+      <a href="index.html">Home</a>
+      <a href="off-season.html">Off-Season</a>
+      <a href="in-season.html">In-Season</a>
+      <a href="testing-guide.html">Testing</a>
+      <a href="exercise-library.html">Exercise Library</a>
+    </nav>
+    <div class="pb-credit">Programmed by <b>Performance Bacon</b></div>
+  </div>
+</header>
+
+<section class="hero" style="padding:36px 20px 28px;">
+  <div class="wrap">
+    <span class="tag">In-Season · 18 Weeks · Minimum Effective Dose</span>
+    <h1>In-Season Program</h1>
+    <p>2 strength maintenance sessions + 2 mobility/flexibility sessions per week. Intensity stays high, only volume drops — this is what keeps off-season gains from leaking away across an 18-week season.</p>
+  </div>
+</section>
+
+<main class="wrap">
+
+  <div class="tier-tabs" id="tierTabs">
+    <button data-tier="beginner" class="active">Beginner</button>
+    <button data-tier="intermediate">Intermediate</button>
+    <button data-tier="advanced">Advanced</button>
+  </div>
+
+  <div class="week-nav">
+    <label for="weekSelect" style="font-family:'Barlow Condensed',sans-serif; font-weight:600; color:var(--gray-300); font-size:0.85rem;">WEEK</label>
+    <select id="weekSelect"></select>
+    <span class="block-pill" id="phasePill"></span>
+    <span class="progress-mini"></span>
+  </div>
+
+  <div id="lightBanner" class="deload-banner" style="display:none;">Light week — volume down. Recovery and freshness take priority over any of the numbers below.</div>
+
+  <div id="phaseFocus" style="color:var(--gray-300); font-size:0.9rem; margin-bottom:18px;"></div>
+
+  <div id="sessions"></div>
+
+  <h2 style="margin-top:36px;">Primers — use every week, not just on lift days</h2>
+  <div class="card-grid" id="primerCards"></div>
+
+  <div class="card" style="margin-top:20px;">
+    <h3 style="font-size:1rem;">Congestion rule</h3>
+    <p style="margin:0;">Two matches in one week? Drop to 1 strength session (Nordic + Copenhagen + one compound lift only) and keep both mobility sessions short. Never cut intensity to fit more volume in — cut volume, keep intensity, per the MED principle above.</p>
+  </div>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    GKU × Performance Bacon — In-Season Program. Stop and get evaluated for sharp pain, joint instability, or numbness/tingling — do not train through red flags.
+  </div>
+</footer>
+
+<script src="assets/js/data-inseason.js"></script>
+<script src="assets/js/app.js"></script>
+<script>
+(function () {
+  var DATA = window.INSEASON_DATA;
+  var tier = 'beginner';
+  var weekSelect = document.getElementById('weekSelect');
+  var sessionsEl = document.getElementById('sessions');
+  var phasePill = document.getElementById('phasePill');
+  var phaseFocus = document.getElementById('phaseFocus');
+  var lightBanner = document.getElementById('lightBanner');
+
+  function weekLabel(weekNum, tierData) {
+    var phase = tierData.phases.find(function (p) { return p.weeks.indexOf(weekNum) > -1; });
+    return 'Week ' + weekNum + ' (' + phase.name + ')';
+  }
+
+  function populateWeeks() {
+    var tierData = DATA.tiers[tier];
+    var weeks = Object.keys(tierData.weeks).map(Number).sort(function (a, b) { return a - b; });
+    weekSelect.innerHTML = '';
+    weeks.forEach(function (w) {
+      var opt = document.createElement('option');
+      opt.value = w;
+      opt.textContent = weekLabel(w, tierData);
+      weekSelect.appendChild(opt);
+    });
+  }
+
+  function renderWeek() {
+    var tierData = DATA.tiers[tier];
+    var weekNum = Number(weekSelect.value);
+    var week = tierData.weeks[weekNum];
+    var phase = tierData.phases.find(function (p) { return p.id === week.phaseId; });
+
+    phasePill.textContent = phase.name;
+    phaseFocus.textContent = phase.focus;
+    lightBanner.style.display = week.light ? 'block' : 'none';
+
+    sessionsEl.innerHTML = '';
+    week.sessions.forEach(function (sess, i) {
+      var id = tier + '-w' + weekNum + '-s' + i;
+      var div = document.createElement('div');
+      div.className = 'session';
+      div.dataset.sessionId = id;
+
+      var rows = sess.slots.map(function (s) {
+        return '<tr><td><span class="slot-tag">' + s.tag + '</span>' + s.exercise + '</td>' +
+          '<td>' + s.sets + '</td><td>' + s.reps + '</td><td>' + s.load + '</td><td>' + s.rest + '</td>' +
+          '<td class="notes">' + s.notes + '</td></tr>';
+      }).join('');
+
+      div.innerHTML =
+        '<div class="session-head">' +
+          '<div><h3>' + sess.day + ' — ' + sess.title + '</h3><div class="session-meta">' + sess.meta + '</div></div>' +
+          '<label class="session-check" onclick="event.stopPropagation()"><input type="checkbox"> Done</label>' +
+          '<span class="chevron">▾</span>' +
+        '</div>' +
+        '<div class="session-body">' +
+          (sess.primer ? '<p style="font-size:0.82rem; color:var(--gray-300);">' + sess.primer + '</p>' : '') +
+          '<table class="prog"><thead><tr><th>Exercise</th><th>Sets</th><th>Reps</th><th>Load</th><th>Rest</th><th>Notes</th></tr></thead>' +
+          '<tbody>' + rows + '</tbody></table>' +
+        '</div>';
+      sessionsEl.appendChild(div);
+    });
+
+    gkuInitSessions(sessionsEl, 'gku-inseason-' + tier);
+  }
+
+  function renderPrimers() {
+    var wrap = document.getElementById('primerCards');
+    wrap.innerHTML = '';
+    ['practice', 'game'].forEach(function (key) {
+      var p = DATA.primers[key];
+      var steps = p.steps.map(function (s) { return '<li>' + s + '</li>'; }).join('');
+      var card = document.createElement('div');
+      card.className = 'card';
+      card.innerHTML = '<h3>' + p.name + '</h3><p>' + p.meta + '</p>' +
+        '<ol style="color:var(--gray-100); font-size:0.88rem; padding-left:18px; margin:0 0 10px;">' + steps + '</ol>' +
+        '<p style="color:var(--amber); font-size:0.8rem; margin:0;">' + p.note + '</p>';
+      wrap.appendChild(card);
+    });
+  }
+
+  gkuInitTiers(function (t) {
+    tier = t;
+    populateWeeks();
+    weekSelect.value = weekSelect.options[0].value;
+    renderWeek();
+  });
+
+  weekSelect.addEventListener('change', renderWeek);
+
+  populateWeeks();
+  renderWeek();
+  renderPrimers();
+})();
+</script>
+</body>
+</html>
