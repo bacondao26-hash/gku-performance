@@ -6,7 +6,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 1,
           "name": "Block 1 — Structural Strength (Eccentric)",
-          "focus": "Tempo eccentric loading (3-1-1 tempo), tissue prep, and movement quality. Foundation block — don't rush the slow part.",
+          "focus": "Slow eccentrics (3-1-1), tissue prep, movement quality.",
           "weeks": [
             1,
             2,
@@ -17,7 +17,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 2,
           "name": "Block 2 — Strength-Power (Isometric)",
-          "focus": "Pause strength at sticking point (X:3:X tempo), RFD development, reactive elements introduced alongside max strength.",
+          "focus": "Pause strength (X:3:X), rate of force development, reactive work begins.",
           "weeks": [
             5,
             6,
@@ -28,7 +28,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 3,
           "name": "Block 3 — Power-Speed (Realization)",
-          "focus": "Explosive concentric intent every rep, contrast pairing (Advanced), speed. Taper into pre-season — quality over quantity.",
+          "focus": "Explosive intent every rep. Taper into pre-season.",
           "weeks": [
             9,
             10,
@@ -46,61 +46,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Half-Kneeling Box Jump (low box — push-off initiation pattern)",
+                  "exercise": "Half-Kneeling Box Jump (low box)",
                   "sets": 3,
                   "reps": 6,
-                  "load": "RPE 6 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 3,
                   "reps": "10/side",
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 5",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (band-assisted, 5s down — hands catch floor)",
+                  "exercise": "Nordic Eccentric (band-assisted, 5s down)",
                   "sets": 3,
                   "reps": 7,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (short-lever — knee on bench, static hold)",
+                  "exercise": "Copenhagen Plank (short-lever hold)",
                   "sets": 3,
                   "reps": "10s hold/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -108,16 +108,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (seated, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (seated, 3kg)",
                   "sets": 3,
                   "reps": 6,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -126,43 +126,43 @@ window.OFFSEASON_DATA = {
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral, full ROM)",
+                  "exercise": "Lat Pulldown",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 17,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (kneeling, band — 3s isometric hold per rep)",
+                  "exercise": "Pallof Press (kneeling, 3s holds)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Kneeling Plank (elbows — 3×30-40s hold)",
+                  "exercise": "Plank (elbows, 30-40s)",
                   "sets": 3,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -170,61 +170,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Lateral Bound — bilateral takeoff → SL stick landing (submax)",
+                  "exercise": "Lateral Bound (stick landing)",
                   "sets": 3,
                   "reps": "6/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (light load, 3s eccentric — technique priority)",
+                  "exercise": "Trap Bar Deadlift (light, 3s down)",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 3,
                   "reps": 14,
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -238,61 +238,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Half-Kneeling Box Jump (low box — push-off initiation pattern)",
+                  "exercise": "Half-Kneeling Box Jump (low box)",
                   "sets": 3,
                   "reps": 7,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 3,
                   "reps": "10/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (band-assisted, 5s down — hands catch floor)",
+                  "exercise": "Nordic Eccentric (band-assisted, 5s down)",
                   "sets": 3,
                   "reps": 8,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (short-lever — knee on bench, static hold)",
+                  "exercise": "Copenhagen Plank (short-lever hold)",
                   "sets": 3,
                   "reps": "12s hold/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -300,16 +300,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (seated, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (seated, 3kg)",
                   "sets": 3,
                   "reps": 7,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -318,43 +318,43 @@ window.OFFSEASON_DATA = {
                   "reps": 10,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral, full ROM)",
+                  "exercise": "Lat Pulldown",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 17,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (kneeling, band — 3s isometric hold per rep)",
+                  "exercise": "Pallof Press (kneeling, 3s holds)",
                   "sets": 3,
                   "reps": "12/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Kneeling Plank (elbows — 3×30-40s hold)",
+                  "exercise": "Plank (elbows, 30-40s)",
                   "sets": 3,
                   "reps": 12,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -362,61 +362,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Lateral Bound — bilateral takeoff → SL stick landing (submax)",
+                  "exercise": "Lateral Bound (stick landing)",
                   "sets": 3,
                   "reps": "7/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (light load, 3s eccentric — technique priority)",
+                  "exercise": "Trap Bar Deadlift (light, 3s down)",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 3,
                   "reps": 14,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -430,61 +430,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Half-Kneeling Box Jump (low box — push-off initiation pattern)",
+                  "exercise": "Half-Kneeling Box Jump (low box)",
                   "sets": 4,
                   "reps": 6,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 4,
                   "reps": "8/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (band-assisted, 5s down — hands catch floor)",
+                  "exercise": "Nordic Eccentric (band-assisted, 5s down)",
                   "sets": 4,
                   "reps": 7,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (short-lever — knee on bench, static hold)",
+                  "exercise": "Copenhagen Plank (short-lever hold)",
                   "sets": 3,
                   "reps": "12s hold/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -492,16 +492,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (seated, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (seated, 3kg)",
                   "sets": 4,
                   "reps": 6,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -510,43 +510,43 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral, full ROM)",
+                  "exercise": "Lat Pulldown",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 17,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (kneeling, band — 3s isometric hold per rep)",
+                  "exercise": "Pallof Press (kneeling, 3s holds)",
                   "sets": 3,
                   "reps": "12/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Kneeling Plank (elbows — 3×30-40s hold)",
+                  "exercise": "Plank (elbows, 30-40s)",
                   "sets": 3,
                   "reps": 12,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -554,61 +554,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Lateral Bound — bilateral takeoff → SL stick landing (submax)",
+                  "exercise": "Lateral Bound (stick landing)",
                   "sets": 4,
                   "reps": "6/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (light load, 3s eccentric — technique priority)",
+                  "exercise": "Trap Bar Deadlift (light, 3s down)",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 4,
                   "reps": 12,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -622,61 +622,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Half-Kneeling Box Jump (low box — push-off initiation pattern)",
+                  "exercise": "Half-Kneeling Box Jump (low box)",
                   "sets": 2,
                   "reps": 6,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 2,
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 2,
                   "reps": "8/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 2,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (band-assisted, 5s down — hands catch floor)",
+                  "exercise": "Nordic Eccentric (band-assisted, 5s down)",
                   "sets": 2,
                   "reps": 7,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (short-lever — knee on bench, static hold)",
+                  "exercise": "Copenhagen Plank (short-lever hold)",
                   "sets": 2,
                   "reps": "10s hold/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -684,16 +684,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (seated, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (seated, 3kg)",
                   "sets": 2,
                   "reps": 6,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -702,43 +702,43 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral, full ROM)",
+                  "exercise": "Lat Pulldown",
                   "sets": 2,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 2,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (kneeling, band — 3s isometric hold per rep)",
+                  "exercise": "Pallof Press (kneeling, 3s holds)",
                   "sets": 2,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Kneeling Plank (elbows — 3×30-40s hold)",
+                  "exercise": "Plank (elbows, 30-40s)",
                   "sets": 2,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -746,61 +746,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Lateral Bound — bilateral takeoff → SL stick landing (submax)",
+                  "exercise": "Lateral Bound (stick landing)",
                   "sets": 2,
                   "reps": "6/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (light load, 3s eccentric — technique priority)",
+                  "exercise": "Trap Bar Deadlift (light, 3s down)",
                   "sets": 2,
                   "reps": 10,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 2,
                   "reps": 12,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -814,61 +814,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (bilateral, moderate height — full arm drive)",
+                  "exercise": "Box Jump (moderate height)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 3,
                   "reps": "8/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down — use hands to return)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 3,
                   "reps": 7,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -876,16 +876,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 3kg)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -894,43 +894,43 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral)",
+                  "exercise": "Lat Pulldown",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 17,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, short range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, short)",
                   "sets": 3,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -938,61 +938,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 3,
                   "reps": "6/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (moderate load, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (moderate)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -1006,61 +1006,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (bilateral, moderate height — full arm drive)",
+                  "exercise": "Box Jump (moderate height)",
                   "sets": 4,
                   "reps": 6,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 5,
                   "reps": 6,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 4,
                   "reps": "8/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down — use hands to return)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 3,
                   "reps": 7,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -1068,16 +1068,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 3kg)",
                   "sets": 4,
                   "reps": 6,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -1086,43 +1086,43 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral)",
+                  "exercise": "Lat Pulldown",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 17,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, short range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, short)",
                   "sets": 3,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -1130,61 +1130,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 4,
                   "reps": "6/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (moderate load, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (moderate)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -1198,61 +1198,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (bilateral, moderate height — full arm drive)",
+                  "exercise": "Box Jump (moderate height)",
                   "sets": 5,
                   "reps": 5,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 5,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 4,
                   "reps": "7/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down — use hands to return)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 4,
                   "reps": 6,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 4,
                   "reps": "10/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -1260,16 +1260,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 3kg)",
                   "sets": 5,
                   "reps": 5,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -1278,43 +1278,43 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral)",
+                  "exercise": "Lat Pulldown",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 4,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, short range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, short)",
                   "sets": 4,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -1322,61 +1322,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (moderate load, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (moderate)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 5,
                   "reps": 8,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -1390,61 +1390,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (bilateral, moderate height — full arm drive)",
+                  "exercise": "Box Jump (moderate height)",
                   "sets": 2,
                   "reps": 5,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 3,
                   "reps": 6,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 2,
                   "reps": "7/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 2,
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down — use hands to return)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 2,
                   "reps": 7,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 2,
                   "reps": "10/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -1452,16 +1452,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 3kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 3kg)",
                   "sets": 2,
                   "reps": 5,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -1470,43 +1470,43 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Lat Pulldown (bilateral)",
+                  "exercise": "Lat Pulldown",
                   "sets": 2,
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 2,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 2,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, short range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, short)",
                   "sets": 2,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -1514,61 +1514,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 2,
                   "reps": "5/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (moderate load, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (moderate)",
                   "sets": 2,
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 2,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -1582,61 +1582,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (max intent — drive arms, full hip/knee extension)",
+                  "exercise": "Box Jump (max intent)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 3,
                   "reps": "7/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 3,
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — minimal hand assist)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 3,
                   "reps": 6,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever, dynamic — raise/lower top leg, controlled)",
+                  "exercise": "Copenhagen Dynamic (controlled)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -1644,16 +1644,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, explosive reactive catch-and-throw — 3kg)",
+                  "exercise": "Med Ball Chest Pass (reactive, 3kg)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -1662,7 +1662,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Pull",
@@ -1671,34 +1671,34 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band — slow controlled press-out)",
+                  "exercise": "Pallof Press (standing, slow)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
+                  "exercise": "Ab Wheel Rollout (kneeling)",
                   "sets": 3,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -1706,61 +1706,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 3/side per set)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (working load — explosive pull intent)",
+                  "exercise": "Trap Bar Deadlift (explosive pull)",
                   "sets": 3,
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -1774,61 +1774,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (max intent — drive arms, full hip/knee extension)",
+                  "exercise": "Box Jump (max intent)",
                   "sets": 5,
                   "reps": 5,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 5,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 4,
                   "reps": "6/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — minimal hand assist)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 4,
                   "reps": 6,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever, dynamic — raise/lower top leg, controlled)",
+                  "exercise": "Copenhagen Dynamic (controlled)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -1836,16 +1836,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, explosive reactive catch-and-throw — 3kg)",
+                  "exercise": "Med Ball Chest Pass (reactive, 3kg)",
                   "sets": 5,
                   "reps": 5,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -1854,7 +1854,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Pull",
@@ -1863,34 +1863,34 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band — slow controlled press-out)",
+                  "exercise": "Pallof Press (standing, slow)",
                   "sets": 3,
                   "reps": "12/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
+                  "exercise": "Ab Wheel Rollout (kneeling)",
                   "sets": 3,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -1898,61 +1898,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 3/side per set)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 5,
                   "reps": "5/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (working load — explosive pull intent)",
+                  "exercise": "Trap Bar Deadlift (explosive pull)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 5,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -1966,61 +1966,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (max intent — drive arms, full hip/knee extension)",
+                  "exercise": "Box Jump (max intent)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 3,
                   "reps": "6/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 3,
                   "reps": 6,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — minimal hand assist)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 3,
                   "reps": 6,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever, dynamic — raise/lower top leg, controlled)",
+                  "exercise": "Copenhagen Dynamic (controlled)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -2028,16 +2028,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, explosive reactive catch-and-throw — 3kg)",
+                  "exercise": "Med Ball Chest Pass (reactive, 3kg)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -2046,7 +2046,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Pull",
@@ -2055,34 +2055,34 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band — slow controlled press-out)",
+                  "exercise": "Pallof Press (standing, slow)",
                   "sets": 3,
                   "reps": "12/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
+                  "exercise": "Ab Wheel Rollout (kneeling)",
                   "sets": 3,
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -2090,61 +2090,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 3/side per set)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (working load — explosive pull intent)",
+                  "exercise": "Trap Bar Deadlift (explosive pull)",
                   "sets": 3,
                   "reps": 6,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 3,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -2158,61 +2158,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Box Jump (max intent — drive arms, full hip/knee extension)",
+                  "exercise": "Box Jump (max intent)",
                   "sets": 2,
                   "reps": 5,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
-                  "exercise": "Back Squat (barbell, light load — technique priority)",
+                  "exercise": "Back Squat (light — technique first)",
                   "sets": 2,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB",
+                  "exercise": "RFESS (bodyweight or light DB)",
                   "sets": 2,
                   "reps": "6/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — DB, 3s eccentric",
+                  "exercise": "Romanian Deadlift (DB, 3s down)",
                   "sets": 2,
                   "reps": 6,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — minimal hand assist)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 2,
                   "reps": 6,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever, dynamic — raise/lower top leg, controlled)",
+                  "exercise": "Copenhagen Dynamic (controlled)",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -2220,16 +2220,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, explosive reactive catch-and-throw — 3kg)",
+                  "exercise": "Med Ball Chest Pass (reactive, 3kg)",
                   "sets": 2,
                   "reps": 5,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -2238,7 +2238,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Pull",
@@ -2247,34 +2247,34 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 2,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, band — slow controlled press-out)",
+                  "exercise": "Pallof Press (standing, slow)",
                   "sets": 2,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
+                  "exercise": "Ab Wheel Rollout (kneeling)",
                   "sets": 2,
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -2282,61 +2282,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 3/side per set)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 2,
                   "reps": "5/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (working load — explosive pull intent)",
+                  "exercise": "Trap Bar Deadlift (explosive pull)",
                   "sets": 2,
                   "reps": 6,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, light-moderate load, 2s squeeze at top",
+                  "exercise": "Hip Thrust (barbell, 2s squeeze at top)",
                   "sets": 2,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Cossack Squat (bodyweight — full range of motion, controlled tempo)",
+                  "exercise": "Cossack Squat (bodyweight)",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -2349,7 +2349,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 1,
           "name": "Block 1 — Structural Strength (Eccentric)",
-          "focus": "Tempo eccentric loading (3-1-1 tempo), tissue prep, and movement quality. Foundation block — don't rush the slow part.",
+          "focus": "Slow eccentrics (3-1-1), tissue prep, movement quality.",
           "weeks": [
             1,
             2,
@@ -2360,7 +2360,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 2,
           "name": "Block 2 — Strength-Power (Isometric)",
-          "focus": "Pause strength at sticking point (X:3:X tempo), RFD development, reactive elements introduced alongside max strength.",
+          "focus": "Pause strength (X:3:X), rate of force development, reactive work begins.",
           "weeks": [
             5,
             6,
@@ -2371,7 +2371,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 3,
           "name": "Block 3 — Power-Speed (Realization)",
-          "focus": "Explosive concentric intent every rep, contrast pairing (Advanced), speed. Taper into pre-season — quality over quantity.",
+          "focus": "Explosive intent every rep. Taper into pre-season.",
           "weeks": [
             9,
             10,
@@ -2389,16 +2389,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Drop → Box Jump (low box — reactive landing)",
+                  "exercise": "Depth Drop → Box Jump (low box)",
                   "sets": 3,
                   "reps": 4,
-                  "load": "RPE 6 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -2407,43 +2407,43 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 3,
                   "reps": "8/side",
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 5",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 3,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -2451,16 +2451,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 4kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 4kg)",
                   "sets": 3,
                   "reps": 4,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -2469,7 +2469,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -2478,25 +2478,25 @@ window.OFFSEASON_DATA = {
                   "reps": 10,
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 15,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, cable or band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -2505,7 +2505,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -2513,61 +2513,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 3,
                   "reps": "4/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (3s eccentric)",
+                  "exercise": "Trap Bar Deadlift (3s down)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -2581,16 +2581,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Drop → Box Jump (low box — reactive landing)",
+                  "exercise": "Depth Drop → Box Jump (low box)",
                   "sets": 3,
                   "reps": 5,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -2599,43 +2599,43 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 3,
                   "reps": "8/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 3,
                   "reps": 6,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -2643,16 +2643,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 4kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 4kg)",
                   "sets": 3,
                   "reps": 5,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -2661,7 +2661,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -2670,25 +2670,25 @@ window.OFFSEASON_DATA = {
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 15,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, cable or band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -2697,7 +2697,7 @@ window.OFFSEASON_DATA = {
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -2705,61 +2705,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 3,
                   "reps": "5/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (3s eccentric)",
+                  "exercise": "Trap Bar Deadlift (3s down)",
                   "sets": 3,
                   "reps": 10,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 3,
                   "reps": 12,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -2773,16 +2773,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Drop → Box Jump (low box — reactive landing)",
+                  "exercise": "Depth Drop → Box Jump (low box)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "RPE 8 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -2791,43 +2791,43 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 4,
                   "reps": "6/side",
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -2835,16 +2835,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 4kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 4kg)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -2853,7 +2853,7 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -2862,25 +2862,25 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 15,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, cable or band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -2889,7 +2889,7 @@ window.OFFSEASON_DATA = {
                   "reps": 10,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -2897,61 +2897,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 4,
                   "reps": "4/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (3s eccentric)",
+                  "exercise": "Trap Bar Deadlift (3s down)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 8",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 4,
                   "reps": 10,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -2965,16 +2965,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Drop → Box Jump (low box — reactive landing)",
+                  "exercise": "Depth Drop → Box Jump (low box)",
                   "sets": 2,
                   "reps": 4,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -2983,43 +2983,43 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 2,
                   "reps": "6/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 2,
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 5s down)",
+                  "exercise": "Nordic Eccentric (anchored, 5s down)",
                   "sets": 2,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Plank (long-lever — foot on bench, static hold)",
+                  "exercise": "Copenhagen Plank (long-lever hold)",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -3027,16 +3027,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Chest Pass (standing, wall — 4kg)",
+                  "exercise": "Med Ball Chest Pass (standing, 4kg)",
                   "sets": 2,
                   "reps": 4,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -3045,7 +3045,7 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -3054,25 +3054,25 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 2,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press (standing, cable or band)",
+                  "exercise": "Pallof Press (standing)",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -3081,7 +3081,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -3089,61 +3089,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (stick landing, both sides)",
+                  "exercise": "SL Lateral Bound (stick)",
                   "sets": 2,
                   "reps": "4/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (3s eccentric)",
+                  "exercise": "Trap Bar Deadlift (3s down)",
                   "sets": 2,
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 2,
                   "reps": 10,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 2,
                   "reps": "6/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 2,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -3157,16 +3157,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (low-mod box)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -3175,43 +3175,43 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 3,
                   "reps": "6/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 3,
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — controlled)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 3,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Side Plank + Hip Adduction (dynamic, foot on bench)",
+                  "exercise": "Copenhagen Dynamic",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -3219,16 +3219,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (max intent — 4-6kg)",
+                  "exercise": "Med Ball Overhead Slam (4-6kg)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -3237,7 +3237,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -3246,25 +3246,25 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 15,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable, controlled)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -3273,7 +3273,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -3281,61 +3281,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 3,
                   "reps": "4/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (loaded, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (2s down)",
                   "sets": 3,
                   "reps": 8,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -3349,16 +3349,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (low-mod box)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -3367,43 +3367,43 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 4,
                   "reps": "6/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 4,
                   "reps": 6,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — controlled)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 3,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Side Plank + Hip Adduction (dynamic, foot on bench)",
+                  "exercise": "Copenhagen Dynamic",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -3411,16 +3411,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (max intent — 4-6kg)",
+                  "exercise": "Med Ball Overhead Slam (4-6kg)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -3429,7 +3429,7 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -3438,25 +3438,25 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 15,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable, controlled)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -3465,7 +3465,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -3473,61 +3473,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 4,
                   "reps": "4/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (loaded, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (2s down)",
                   "sets": 4,
                   "reps": 6,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 4,
                   "reps": 8,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -3541,16 +3541,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (low-mod box)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "RPE 8.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -3559,43 +3559,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 4,
                   "reps": "5/side",
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — controlled)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Side Plank + Hip Adduction (dynamic, foot on bench)",
+                  "exercise": "Copenhagen Dynamic",
                   "sets": 4,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -3603,16 +3603,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (max intent — 4-6kg)",
+                  "exercise": "Med Ball Overhead Slam (4-6kg)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -3621,7 +3621,7 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -3630,25 +3630,25 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable, controlled)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 4,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -3657,7 +3657,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -3665,61 +3665,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 4,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (loaded, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (2s down)",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 8.5",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 5,
                   "reps": 6,
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -3733,16 +3733,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (low-mod box)",
                   "sets": 2,
                   "reps": 3,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -3751,43 +3751,43 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 2,
                   "reps": "5/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 2,
                   "reps": 5,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (anchored, 4s down — controlled)",
+                  "exercise": "Nordic Eccentric (anchored, 4s down)",
                   "sets": 2,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Side Plank + Hip Adduction (dynamic, foot on bench)",
+                  "exercise": "Copenhagen Dynamic",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -3795,16 +3795,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (max intent — 4-6kg)",
+                  "exercise": "Med Ball Overhead Slam (4-6kg)",
                   "sets": 2,
                   "reps": 3,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -3813,7 +3813,7 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -3822,25 +3822,25 @@ window.OFFSEASON_DATA = {
                   "reps": 6,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 2,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable, controlled)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
@@ -3849,7 +3849,7 @@ window.OFFSEASON_DATA = {
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -3857,61 +3857,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 2,
                   "reps": "3/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (loaded, 2s eccentric)",
+                  "exercise": "Trap Bar Deadlift (2s down)",
                   "sets": 2,
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 2,
                   "reps": 8,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 2,
                   "reps": "6/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -3925,16 +3925,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump (mid box) + Box Jump contrast set (2+2)",
+                  "exercise": "Depth Jump + Box Jump contrast (2+2)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -3943,43 +3943,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 3,
                   "reps": "5/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 3,
                   "reps": 5,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (5-10kg plate held on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (5-10kg plate)",
                   "sets": 3,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 5kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+5kg on hip)",
                   "sets": 3,
                   "reps": "6/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -3987,16 +3987,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Pass (GK dive-load pattern — 4-5kg)",
+                  "exercise": "Med Ball Rotational Pass (4-5kg)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -4005,43 +4005,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Pull-Up (bodyweight or band-assisted)",
+                  "exercise": "Pull-Up",
                   "sets": 3,
                   "reps": 5,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (standing, cable — controlled)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout — attempt 1 standing rep at end of each set",
+                  "exercise": "Ab Wheel Rollout (try standing)",
                   "sets": 3,
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -4049,61 +4049,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound → Sprint 5m (reactive transition)",
+                  "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 4,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (heavy — explosive concentric)",
+                  "exercise": "Trap Bar Deadlift (heavy, explosive)",
                   "sets": 3,
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 4,
                   "reps": 6,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "6/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -4117,16 +4117,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump (mid box) + Box Jump contrast set (2+2)",
+                  "exercise": "Depth Jump + Box Jump contrast (2+2)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "RPE 8 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -4135,43 +4135,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 4,
                   "reps": "4/side",
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (5-10kg plate held on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (5-10kg plate)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 5kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+5kg on hip)",
                   "sets": 3,
                   "reps": "6/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -4179,16 +4179,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Pass (GK dive-load pattern — 4-5kg)",
+                  "exercise": "Med Ball Rotational Pass (4-5kg)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -4197,43 +4197,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Pull-Up (bodyweight or band-assisted)",
+                  "exercise": "Pull-Up",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (standing, cable — controlled)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout — attempt 1 standing rep at end of each set",
+                  "exercise": "Ab Wheel Rollout (try standing)",
                   "sets": 3,
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -4241,61 +4241,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound → Sprint 5m (reactive transition)",
+                  "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 5,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (heavy — explosive concentric)",
+                  "exercise": "Trap Bar Deadlift (heavy, explosive)",
                   "sets": 4,
                   "reps": 5,
                   "load": "RPE 8",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 5,
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -4309,16 +4309,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump (mid box) + Box Jump contrast set (2+2)",
+                  "exercise": "Depth Jump + Box Jump contrast (2+2)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "RPE 8.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -4327,43 +4327,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 3,
                   "reps": "4/side",
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 3,
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (5-10kg plate held on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (5-10kg plate)",
                   "sets": 3,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 5kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+5kg on hip)",
                   "sets": 3,
                   "reps": "6/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -4371,16 +4371,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Pass (GK dive-load pattern — 4-5kg)",
+                  "exercise": "Med Ball Rotational Pass (4-5kg)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -4389,43 +4389,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Pull-Up (bodyweight or band-assisted)",
+                  "exercise": "Pull-Up",
                   "sets": 3,
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 12,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (standing, cable — controlled)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 3,
                   "reps": "10/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout — attempt 1 standing rep at end of each set",
+                  "exercise": "Ab Wheel Rollout (try standing)",
                   "sets": 3,
                   "reps": 8,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -4433,61 +4433,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound → Sprint 5m (reactive transition)",
+                  "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 4,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (heavy — explosive concentric)",
+                  "exercise": "Trap Bar Deadlift (heavy, explosive)",
                   "sets": 3,
                   "reps": 4,
                   "load": "RPE 8.5",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 3,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 3,
                   "reps": "8/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -4501,16 +4501,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump (mid box) + Box Jump contrast set (2+2)",
+                  "exercise": "Depth Jump + Box Jump contrast (2+2)",
                   "sets": 2,
                   "reps": 3,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -4519,43 +4519,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded",
+                  "exercise": "RFESS (DB/KB loaded)",
                   "sets": 2,
                   "reps": "4/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Romanian Deadlift — barbell",
+                  "exercise": "Romanian Deadlift (barbell)",
                   "sets": 2,
                   "reps": 4,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (5-10kg plate held on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (5-10kg plate)",
                   "sets": 2,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 5kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+5kg on hip)",
                   "sets": 2,
                   "reps": "6/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -4563,16 +4563,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Pass (GK dive-load pattern — 4-5kg)",
+                  "exercise": "Med Ball Rotational Pass (4-5kg)",
                   "sets": 2,
                   "reps": 3,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -4581,43 +4581,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
-                  "exercise": "Pull-Up (bodyweight or band-assisted)",
+                  "exercise": "Pull-Up",
                   "sets": 2,
                   "reps": 5,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 2,
                   "reps": 10,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (standing, cable — controlled)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 2,
                   "reps": "8/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout — attempt 1 standing rep at end of each set",
+                  "exercise": "Ab Wheel Rollout (try standing)",
                   "sets": 2,
                   "reps": 6,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -4625,61 +4625,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound → Sprint 5m (reactive transition)",
+                  "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 2,
                   "reps": "3/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Trap Bar Deadlift (heavy — explosive concentric)",
+                  "exercise": "Trap Bar Deadlift (heavy, explosive)",
                   "sets": 2,
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — barbell, moderate-heavy, drive fast through top",
+                  "exercise": "Hip Thrust (barbell, drive fast)",
                   "sets": 2,
                   "reps": 5,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (DB loaded, 8-10/side)",
+                  "exercise": "Lateral Squat (DB)",
                   "sets": 2,
                   "reps": "6/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -4692,7 +4692,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 1,
           "name": "Block 1 — Structural Strength (Eccentric)",
-          "focus": "Tempo eccentric loading (3-1-1 tempo), tissue prep, and movement quality. Foundation block — don't rush the slow part.",
+          "focus": "Slow eccentrics (3-1-1), tissue prep, movement quality.",
           "weeks": [
             1,
             2,
@@ -4703,7 +4703,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 2,
           "name": "Block 2 — Strength-Power (Isometric)",
-          "focus": "Pause strength at sticking point (X:3:X tempo), RFD development, reactive elements introduced alongside max strength.",
+          "focus": "Pause strength (X:3:X), rate of force development, reactive work begins.",
           "weeks": [
             5,
             6,
@@ -4714,7 +4714,7 @@ window.OFFSEASON_DATA = {
         {
           "id": 3,
           "name": "Block 3 — Power-Speed (Realization)",
-          "focus": "Explosive concentric intent every rep, contrast pairing (Advanced), speed. Taper into pre-season — quality over quantity.",
+          "focus": "Explosive intent every rep. Taper into pre-season.",
           "weeks": [
             9,
             10,
@@ -4732,16 +4732,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (moderate box)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "RPE 6 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -4750,43 +4750,43 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 4,
                   "reps": "7/side",
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 4,
                   "reps": 9,
                   "load": "RPE 5",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (bodyweight, 4s down)",
+                  "exercise": "Nordic Eccentric (bodyweight, 4s down)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic (long-lever — foot on bench, 8-10 reps)",
+                  "exercise": "Copenhagen Dynamic (long-lever)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -4794,16 +4794,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw (wall — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw (5-6kg)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -4812,7 +4812,7 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -4821,34 +4821,34 @@ window.OFFSEASON_DATA = {
                   "reps": 9,
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (full kneeling range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
                   "sets": 4,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -4856,61 +4856,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 4,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (3s eccentric)",
+                  "exercise": "Conventional Deadlift (3s down)",
                   "sets": 4,
                   "reps": 9,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 4,
                   "reps": 11,
                   "load": "RPE 5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -4924,16 +4924,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (moderate box)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -4942,43 +4942,43 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 4,
                   "reps": "7/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 4,
                   "reps": 9,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (bodyweight, 4s down)",
+                  "exercise": "Nordic Eccentric (bodyweight, 4s down)",
                   "sets": 4,
                   "reps": 5,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic (long-lever — foot on bench, 8-10 reps)",
+                  "exercise": "Copenhagen Dynamic (long-lever)",
                   "sets": 4,
                   "reps": "9/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -4986,16 +4986,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw (wall — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw (5-6kg)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -5004,7 +5004,7 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -5013,34 +5013,34 @@ window.OFFSEASON_DATA = {
                   "reps": 9,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 4,
                   "reps": "9/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (full kneeling range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
                   "sets": 4,
                   "reps": 9,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -5048,61 +5048,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 4,
                   "reps": "4/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (3s eccentric)",
+                  "exercise": "Conventional Deadlift (3s down)",
                   "sets": 4,
                   "reps": 9,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 4,
                   "reps": 11,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -5116,16 +5116,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (moderate box)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "RPE 8 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -5134,43 +5134,43 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 5,
                   "reps": "5/side",
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 5,
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (bodyweight, 4s down)",
+                  "exercise": "Nordic Eccentric (bodyweight, 4s down)",
                   "sets": 5,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic (long-lever — foot on bench, 8-10 reps)",
+                  "exercise": "Copenhagen Dynamic (long-lever)",
                   "sets": 4,
                   "reps": "9/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -5178,16 +5178,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw (wall — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw (5-6kg)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -5196,7 +5196,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -5205,34 +5205,34 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 4,
                   "reps": "9/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (full kneeling range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
                   "sets": 4,
                   "reps": 9,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -5240,61 +5240,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 5,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (3s eccentric)",
+                  "exercise": "Conventional Deadlift (3s down)",
                   "sets": 5,
                   "reps": 7,
                   "load": "RPE 8",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 5,
                   "reps": 9,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground",
+                  "exercise": "4×30s lateral shuttles @ RPE 6 (1:2 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -5308,16 +5308,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
                   "exercise": "Depth Jump (moderate box)",
                   "sets": 3,
                   "reps": 3,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -5326,43 +5326,43 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 3,
                   "reps": "5/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 3,
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Hip hinge, not back bend. Bar/DB stays close. 3s eccentric."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Nordic Hamstring Eccentric (bodyweight, 4s down)",
+                  "exercise": "Nordic Eccentric (bodyweight, 4s down)",
                   "sets": 3,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic (long-lever — foot on bench, 8-10 reps)",
+                  "exercise": "Copenhagen Dynamic (long-lever)",
                   "sets": 3,
                   "reps": "7/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -5370,16 +5370,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw (wall — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw (5-6kg)",
                   "sets": 3,
                   "reps": 3,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -5388,7 +5388,7 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Pull",
@@ -5397,34 +5397,34 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 11,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Press-out (cable)",
+                  "exercise": "Pallof Press + press-out",
                   "sets": 3,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (full kneeling range)",
+                  "exercise": "Ab Wheel Rollout (kneeling, full range)",
                   "sets": 3,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -5432,61 +5432,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "SL Lateral Bound (continuous alternating — 4/side)",
+                  "exercise": "SL Lateral Bound (continuous)",
                   "sets": 3,
                   "reps": "3/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (3s eccentric)",
+                  "exercise": "Conventional Deadlift (3s down)",
                   "sets": 3,
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "3-1-1 tempo — 3s down, 1s pause."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 3,
                   "reps": 9,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 3,
                   "reps": "5/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)",
+                  "exercise": "Lateral Cone Shuffle (5m, sharp cuts)",
                   "sets": 3,
-                  "reps": "per drill",
+                  "reps": "6",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -5500,16 +5500,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump → Sprint 5m (reactive transition)",
+                  "exercise": "Depth Jump → Sprint 5m",
                   "sets": 5,
                   "reps": 2,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -5518,43 +5518,43 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 4,
                   "reps": "5/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (10kg plate on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (10kg plate)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 10kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+10kg)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -5562,16 +5562,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (heavy — 6-8kg)",
+                  "exercise": "Med Ball Overhead Slam (6-8kg)",
                   "sets": 5,
                   "reps": 2,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -5580,7 +5580,7 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -5589,34 +5589,34 @@ window.OFFSEASON_DATA = {
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (cable)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, short range)",
+                  "exercise": "Ab Wheel Rollout (standing, short)",
                   "sets": 4,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -5624,61 +5624,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 4,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (heavy, 2s eccentric)",
+                  "exercise": "Conventional Deadlift (heavy)",
                   "sets": 4,
                   "reps": 7,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 5,
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -5692,16 +5692,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump → Sprint 5m (reactive transition)",
+                  "exercise": "Depth Jump → Sprint 5m",
                   "sets": 5,
                   "reps": 3,
-                  "load": "RPE 7.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -5710,43 +5710,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 5,
                   "reps": "5/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 5,
                   "reps": 5,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (10kg plate on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (10kg plate)",
                   "sets": 4,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 10kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+10kg)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -5754,16 +5754,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (heavy — 6-8kg)",
+                  "exercise": "Med Ball Overhead Slam (6-8kg)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -5772,7 +5772,7 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -5781,34 +5781,34 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 14,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (cable)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, short range)",
+                  "exercise": "Ab Wheel Rollout (standing, short)",
                   "sets": 4,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -5816,61 +5816,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 5,
                   "reps": "3/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (heavy, 2s eccentric)",
+                  "exercise": "Conventional Deadlift (heavy)",
                   "sets": 5,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 5,
                   "reps": 7,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -5884,16 +5884,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump → Sprint 5m (reactive transition)",
+                  "exercise": "Depth Jump → Sprint 5m",
                   "sets": 6,
                   "reps": 2,
-                  "load": "RPE 8.5 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -5902,43 +5902,43 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 8.5",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 5,
                   "reps": "4/side",
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 5,
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (10kg plate on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (10kg plate)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 10kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+10kg)",
                   "sets": 5,
                   "reps": "7/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -5946,16 +5946,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (heavy — 6-8kg)",
+                  "exercise": "Med Ball Overhead Slam (6-8kg)",
                   "sets": 6,
                   "reps": 2,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -5964,7 +5964,7 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 8.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -5973,34 +5973,34 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 11,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (cable)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 5,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, short range)",
+                  "exercise": "Ab Wheel Rollout (standing, short)",
                   "sets": 5,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -6008,61 +6008,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 5,
                   "reps": "2/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (heavy, 2s eccentric)",
+                  "exercise": "Conventional Deadlift (heavy)",
                   "sets": 5,
                   "reps": 4,
                   "load": "RPE 8.5",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 6,
                   "reps": 5,
                   "load": "RPE 7.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed",
+                  "exercise": "6×20s T-drill cuts @ RPE 7-8 (1:3 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -6076,16 +6076,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Depth Jump → Sprint 5m (reactive transition)",
+                  "exercise": "Depth Jump → Sprint 5m",
                   "sets": 3,
                   "reps": 2,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -6094,43 +6094,43 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 3,
                   "reps": "4/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 3,
                   "reps": 4,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Pause at bottom. Control the eccentric, drive through heels."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (10kg plate on chest, 4s eccentric)",
+                  "exercise": "Weighted Nordic (10kg plate)",
                   "sets": 3,
                   "reps": 4,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic + 10kg plate on hip",
+                  "exercise": "Copenhagen Dynamic (+10kg)",
                   "sets": 3,
                   "reps": "7/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -6138,16 +6138,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Overhead Slam (heavy — 6-8kg)",
+                  "exercise": "Med Ball Overhead Slam (6-8kg)",
                   "sets": 3,
                   "reps": 2,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -6156,7 +6156,7 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -6165,34 +6165,34 @@ window.OFFSEASON_DATA = {
                   "reps": 5,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 11,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Pallof Press + Rotation (cable)",
+                  "exercise": "Pallof Press + rotation",
                   "sets": 3,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, short range)",
+                  "exercise": "Ab Wheel Rollout (standing, short)",
                   "sets": 3,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -6200,61 +6200,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
                   "sets": 3,
                   "reps": "2/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (heavy, 2s eccentric)",
+                  "exercise": "Conventional Deadlift (heavy)",
                   "sets": 3,
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Pause 3s at sticking point."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 3,
                   "reps": 7,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 3,
                   "reps": "5/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)",
+                  "exercise": "Box Drop → Lateral Dive + Getup",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "6/side",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -6268,16 +6268,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Drop Jump → Max CMJ contrast set (2+2 — max intent every rep)",
+                  "exercise": "Drop Jump → Max CMJ contrast (2+2)",
                   "sets": 5,
                   "reps": 2,
-                  "load": "RPE 7 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -6286,43 +6286,43 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 4,
                   "reps": "4/side",
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 4,
                   "reps": 4,
                   "load": "RPE 6",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (12-15kg — progressed load from Block 2)",
+                  "exercise": "Weighted Nordic (12-15kg)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic — heavy (12-15kg plate, controlled reps)",
+                  "exercise": "Copenhagen Dynamic (+12-15kg)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -6330,16 +6330,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw + Step-off Entry (GK dive-load pattern — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw + step-off (5-6kg)",
                   "sets": 5,
                   "reps": 2,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -6348,7 +6348,7 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 7",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -6357,34 +6357,34 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 11,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Single-Arm Cable Anti-Rotation Press + Rotation (heavy)",
+                  "exercise": "Single-Arm Cable Anti-Rotation (heavy)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, controlled full range)",
+                  "exercise": "Ab Wheel Rollout (standing)",
                   "sets": 4,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -6392,61 +6392,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Reactive Lateral Bound (coach-cue start — GK dive-entry pattern)",
+                  "exercise": "Reactive Lateral Bound (cue start)",
                   "sets": 5,
                   "reps": "2/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (near-max — explosive intent)",
+                  "exercise": "Conventional Deadlift (near-max)",
                   "sets": 4,
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 5,
                   "reps": 5,
                   "load": "RPE 6",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -6460,16 +6460,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Drop Jump → Max CMJ contrast set (2+2 — max intent every rep)",
+                  "exercise": "Drop Jump → Max CMJ contrast (2+2)",
                   "sets": 6,
                   "reps": 2,
-                  "load": "RPE 8 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -6478,43 +6478,43 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 5,
                   "reps": "3/side",
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 5,
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (12-15kg — progressed load from Block 2)",
+                  "exercise": "Weighted Nordic (12-15kg)",
                   "sets": 5,
                   "reps": 3,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic — heavy (12-15kg plate, controlled reps)",
+                  "exercise": "Copenhagen Dynamic (+12-15kg)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -6522,16 +6522,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw + Step-off Entry (GK dive-load pattern — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw + step-off (5-6kg)",
                   "sets": 6,
                   "reps": 2,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -6540,7 +6540,7 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 8",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -6549,34 +6549,34 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 11,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Single-Arm Cable Anti-Rotation Press + Rotation (heavy)",
+                  "exercise": "Single-Arm Cable Anti-Rotation (heavy)",
                   "sets": 4,
                   "reps": "9/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, controlled full range)",
+                  "exercise": "Ab Wheel Rollout (standing)",
                   "sets": 4,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -6584,61 +6584,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Reactive Lateral Bound (coach-cue start — GK dive-entry pattern)",
+                  "exercise": "Reactive Lateral Bound (cue start)",
                   "sets": 6,
                   "reps": "2/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (near-max — explosive intent)",
+                  "exercise": "Conventional Deadlift (near-max)",
                   "sets": 5,
                   "reps": 4,
                   "load": "RPE 8",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 6,
                   "reps": 4,
                   "load": "RPE 7",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -6652,16 +6652,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Drop Jump → Max CMJ contrast set (2+2 — max intent every rep)",
+                  "exercise": "Drop Jump → Max CMJ contrast (2+2)",
                   "sets": 5,
                   "reps": 2,
-                  "load": "RPE 9 intent (near-max effort)",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -6670,43 +6670,43 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 9",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 4,
                   "reps": "3/side",
                   "load": "RPE 8",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 4,
                   "reps": 3,
                   "load": "RPE 8",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (12-15kg — progressed load from Block 2)",
+                  "exercise": "Weighted Nordic (12-15kg)",
                   "sets": 4,
                   "reps": 3,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic — heavy (12-15kg plate, controlled reps)",
+                  "exercise": "Copenhagen Dynamic (+12-15kg)",
                   "sets": 4,
                   "reps": "5/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -6714,16 +6714,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw + Step-off Entry (GK dive-load pattern — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw + step-off (5-6kg)",
                   "sets": 5,
                   "reps": 2,
-                  "load": "Max intent per throw — reset grip between reps",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Max intent",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -6732,7 +6732,7 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 9",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -6741,34 +6741,34 @@ window.OFFSEASON_DATA = {
                   "reps": 3,
                   "load": "RPE 8",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 4,
                   "reps": 11,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Single-Arm Cable Anti-Rotation Press + Rotation (heavy)",
+                  "exercise": "Single-Arm Cable Anti-Rotation (heavy)",
                   "sets": 4,
                   "reps": "9/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, controlled full range)",
+                  "exercise": "Ab Wheel Rollout (standing)",
                   "sets": 4,
                   "reps": 7,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -6776,61 +6776,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Reactive Lateral Bound (coach-cue start — GK dive-entry pattern)",
+                  "exercise": "Reactive Lateral Bound (cue start)",
                   "sets": 5,
                   "reps": "2/side",
-                  "load": "Max lateral effort — stick the landing",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Max effort",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (near-max — explosive intent)",
+                  "exercise": "Conventional Deadlift (near-max)",
                   "sets": 4,
                   "reps": 3,
                   "load": "RPE 9",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 4,
                   "reps": 4,
                   "load": "RPE 8",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 4,
                   "reps": "7/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps",
+                  "exercise": "8×10s reactive sprints @ max (1:4 rest)",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }
@@ -6844,16 +6844,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 1",
               "title": "Lower Strength + Power",
               "meta": "~75-85min",
-              "primer": "Warm-up (~12min): 3min row/bike or jog. Hip mobility: world's greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.",
+              "primer": "Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Drop Jump → Max CMJ contrast set (2+2 — max intent every rep)",
+                  "exercise": "Drop Jump → Max CMJ contrast (2+2)",
                   "sets": 3,
                   "reps": 2,
-                  "load": "Submax — quality focus only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Full CNS recovery between reps — this is not conditioning. Reset, then go."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full rest between reps — quality, not conditioning."
                 },
                 {
                   "tag": "Squat",
@@ -6862,43 +6862,43 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Unilateral",
-                  "exercise": "Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell",
+                  "exercise": "RFESS (heavy DB or barbell)",
                   "sets": 3,
                   "reps": "3/side",
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent."
+                  "notes": "Dive push-off pattern. Control the descent."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Single-Leg RDL — barbell or heavy KB",
+                  "exercise": "Single-Leg RDL (barbell or heavy KB)",
                   "sets": 3,
                   "reps": 3,
                   "load": "RPE 6.5",
                   "rest": "2min",
-                  "notes": "Explosive hip extension intent. Bar speed on the way up."
+                  "notes": "Hinge at hip, bar stays close."
                 },
                 {
                   "tag": "Prehab — Nordic",
-                  "exercise": "Weighted Nordic (12-15kg — progressed load from Block 2)",
+                  "exercise": "Weighted Nordic (12-15kg)",
                   "sets": 3,
                   "reps": 3,
-                  "load": "Bodyweight (or band-assist for Beginner)",
+                  "load": "Bodyweight",
                   "rest": "2min",
-                  "notes": "Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure."
+                  "notes": "Never skip — #1 hamstring protection."
                 },
                 {
                   "tag": "Prehab — Copenhagen",
-                  "exercise": "Copenhagen Dynamic — heavy (12-15kg plate, controlled reps)",
+                  "exercise": "Copenhagen Dynamic (+12-15kg)",
                   "sets": 3,
                   "reps": "5/side",
-                  "load": "Bodyweight (+ load as specified)",
+                  "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder."
+                  "notes": "Groin durability — progress slow."
                 }
               ]
             },
@@ -6906,16 +6906,16 @@ window.OFFSEASON_DATA = {
               "day": "Day 2",
               "title": "Upper Body + Core",
               "meta": "~65-75min",
-              "primer": "Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.",
+              "primer": "Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.",
               "slots": [
                 {
                   "tag": "Power",
-                  "exercise": "Med Ball Rotational Throw + Step-off Entry (GK dive-load pattern — 5-6kg)",
+                  "exercise": "Med Ball Rotational Throw + step-off (5-6kg)",
                   "sets": 3,
                   "reps": 2,
-                  "load": "Submax — quality focus",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "Upper body explosive work. Reset body position fully between reps."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Full reset between throws."
                 },
                 {
                   "tag": "Press",
@@ -6924,7 +6924,7 @@ window.OFFSEASON_DATA = {
                   "reps": 2,
                   "load": "RPE 7.5",
                   "rest": "2-3min",
-                  "notes": "Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through."
+                  "notes": "Dip-drive-press. Catch with elbows through."
                 },
                 {
                   "tag": "Pull",
@@ -6933,34 +6933,34 @@ window.OFFSEASON_DATA = {
                   "reps": 4,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Scapula retract and depress first. Elbows drive down and back — not arms pulling."
+                  "notes": "Scaps first, elbows down and back."
                 },
                 {
                   "tag": "Shoulder Health",
-                  "exercise": "3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep",
+                  "exercise": "Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12",
                   "sets": 3,
                   "reps": 9,
-                  "load": "Light — RPE 5-6 max",
-                  "rest": "45s (no grinding)",
-                  "notes": "GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion."
+                  "load": "Light (RPE 5-6)",
+                  "rest": "45s",
+                  "notes": "Injury prevention — never grind."
                 },
                 {
                   "tag": "Core — Anti-Rot",
-                  "exercise": "Single-Arm Cable Anti-Rotation Press + Rotation (heavy)",
+                  "exercise": "Single-Arm Cable Anti-Rotation (heavy)",
                   "sets": 3,
                   "reps": "7/side",
-                  "load": "Light-moderate band or cable",
+                  "load": "Light-moderate",
                   "rest": "60s",
-                  "notes": "Resist the rotation — don't move the spine. GK core has to resist dive-force and landing torque."
+                  "notes": "Resist rotation — spine stays still."
                 },
                 {
                   "tag": "Core — Anti-Ext",
-                  "exercise": "Ab Wheel Rollout (standing, controlled full range)",
+                  "exercise": "Ab Wheel Rollout (standing)",
                   "sets": 3,
                   "reps": 5,
                   "load": "Bodyweight",
                   "rest": "60s",
-                  "notes": "Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range."
+                  "notes": "Ribs down, no back arch."
                 }
               ]
             },
@@ -6968,61 +6968,61 @@ window.OFFSEASON_DATA = {
               "day": "Day 3",
               "title": "Full Body Power + GK Movement",
               "meta": "~70-80min",
-              "primer": "Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
               "slots": [
                 {
                   "tag": "Lateral Power",
-                  "exercise": "Reactive Lateral Bound (coach-cue start — GK dive-entry pattern)",
+                  "exercise": "Reactive Lateral Bound (cue start)",
                   "sets": 3,
                   "reps": "2/side",
-                  "load": "Submax — stick and absorb only",
-                  "rest": "2-3min (full CNS recovery)",
-                  "notes": "GK push-off power. Land softly, absorb force. Reactive version = first-step cue response."
+                  "load": "Submax",
+                  "rest": "2-3min",
+                  "notes": "Push-off power. Stick every landing."
                 },
                 {
                   "tag": "Hinge",
-                  "exercise": "Conventional Deadlift (near-max — explosive intent)",
+                  "exercise": "Conventional Deadlift (near-max)",
                   "sets": 3,
                   "reps": 3,
                   "load": "RPE 7.5",
                   "rest": "2min",
-                  "notes": "Explosive concentric intent every rep — power realization phase. Bar speed matters. Hinge at hip, bar stays close. Braced through entire rep."
+                  "notes": "Explosive intent — bar speed."
                 },
                 {
                   "tag": "Hip Power",
-                  "exercise": "Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)",
+                  "exercise": "Hip Thrust (heavy, 1.5-rep method)",
                   "sets": 3,
                   "reps": 4,
                   "load": "RPE 6.5",
                   "rest": "90s",
-                  "notes": "Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery."
+                  "notes": "Full extension, 2s hold at top."
                 },
                 {
                   "tag": "Lateral Pattern",
-                  "exercise": "Lateral Squat (heavy DB or landmine, 6-8/side)",
+                  "exercise": "Lateral Squat (heavy DB or landmine)",
                   "sets": 3,
                   "reps": "5/side",
-                  "load": "Quality over load — upright torso",
+                  "load": "Quality over load",
                   "rest": "60s",
-                  "notes": "Lateral hip and groin strength. Keep heel down on bending leg. Don't rush through range."
+                  "notes": "Heel down, torso tall."
                 },
                 {
                   "tag": "GK Reactive",
-                  "exercise": "GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)",
+                  "exercise": "Dive-Recovery Circuit (dive, getup, sprint 5m)",
                   "sets": 4,
-                  "reps": "per drill",
+                  "reps": "8",
                   "load": "—",
                   "rest": "90s",
-                  "notes": "GK movement quality — not conditioning. Sharp reactions, full reset between reps."
+                  "notes": "Movement quality — full reset between reps."
                 },
                 {
                   "tag": "Conditioning",
-                  "exercise": "3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target",
+                  "exercise": "3×20s easy shuffle @ RPE 5",
                   "sets": "—",
                   "reps": "—",
-                  "load": "Per protocol above",
+                  "load": "Per protocol",
                   "rest": "Per protocol",
-                  "notes": "Finisher only — do not grind into next-day soreness. Stop if form breaks."
+                  "notes": "Finisher — stop if form breaks."
                 }
               ]
             }

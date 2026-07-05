@@ -4,9 +4,9 @@ import fs from 'node:fs';
 const TIERS = ['beginner', 'intermediate', 'advanced'];
 
 const BLOCKS = [
-  { id: 1, weeks: [1,2,3,4], name: 'Block 1 — Structural Strength (Eccentric)', focus: 'Tempo eccentric loading (3-1-1 tempo), tissue prep, and movement quality. Foundation block — don\'t rush the slow part.' },
-  { id: 2, weeks: [5,6,7,8], name: 'Block 2 — Strength-Power (Isometric)', focus: 'Pause strength at sticking point (X:3:X tempo), RFD development, reactive elements introduced alongside max strength.' },
-  { id: 3, weeks: [9,10,11,12], name: 'Block 3 — Power-Speed (Realization)', focus: 'Explosive concentric intent every rep, contrast pairing (Advanced), speed. Taper into pre-season — quality over quantity.' },
+  { id: 1, weeks: [1,2,3,4], name: 'Block 1 — Structural Strength (Eccentric)', focus: 'Slow eccentrics (3-1-1), tissue prep, movement quality.' },
+  { id: 2, weeks: [5,6,7,8], name: 'Block 2 — Strength-Power (Isometric)', focus: 'Pause strength (X:3:X), rate of force development, reactive work begins.' },
+  { id: 3, weeks: [9,10,11,12], name: 'Block 3 — Power-Speed (Realization)', focus: 'Explosive intent every rep. Taper into pre-season.' },
 ];
 
 // [sets, reps] by slot type → block id → week-in-block index (0=wk1, 1=wk2, 2=wk3, 3=deload)
@@ -42,7 +42,7 @@ const TIER_ADJUST = {
 };
 
 const REST = {
-  power:        '2-3min (full CNS recovery)',
+  power:        '2-3min',
   squat:        '2-3min',
   unilateral:   '90s',
   hinge:        '2min',
@@ -51,73 +51,73 @@ const REST = {
   copenh:       '60s',
   press:        '2-3min',
   pull:         '90s',
-  shoulder:     '45s (no grinding)',
+  shoulder:     '45s',
   core_antirot: '60s',
   core_antiext: '60s',
-  lat_power:    '2-3min (full CNS recovery)',
+  lat_power:    '2-3min',
   lat_squat:    '60s',
 };
 
 // Exercises per tier. String = same across all blocks. Array[3] = per-block progression.
 const EX = {
   power_d1: {
-    beginner:     ['Half-Kneeling Box Jump (low box — push-off initiation pattern)',
-                   'Box Jump (bilateral, moderate height — full arm drive)',
-                   'Box Jump (max intent — drive arms, full hip/knee extension)'],
-    intermediate: ['Depth Drop → Box Jump (low box — reactive landing)',
+    beginner:     ['Half-Kneeling Box Jump (low box)',
+                   'Box Jump (moderate height)',
+                   'Box Jump (max intent)'],
+    intermediate: ['Depth Drop → Box Jump (low box)',
                    'Depth Jump (low-mod box)',
-                   'Depth Jump (mid box) + Box Jump contrast set (2+2)'],
+                   'Depth Jump + Box Jump contrast (2+2)'],
     advanced:     ['Depth Jump (moderate box)',
-                   'Depth Jump → Sprint 5m (reactive transition)',
-                   'Drop Jump → Max CMJ contrast set (2+2 — max intent every rep)'],
+                   'Depth Jump → Sprint 5m',
+                   'Drop Jump → Max CMJ contrast (2+2)'],
   },
   squat_d1: {
-    beginner:     'Back Squat (barbell, light load — technique priority)',
+    beginner:     'Back Squat (light — technique first)',
     intermediate: 'Back Squat',
     advanced:     'Back Squat (heavy)',
   },
   rfess_d1: {
-    beginner:     'Rear-Foot Elevated Split Squat (RFESS) — Bodyweight or Light DB',
-    intermediate: 'Rear-Foot Elevated Split Squat (RFESS) — DB/KB loaded',
-    advanced:     'Rear-Foot Elevated Split Squat (RFESS) — Heavy DB or Barbell',
+    beginner:     'RFESS (bodyweight or light DB)',
+    intermediate: 'RFESS (DB/KB loaded)',
+    advanced:     'RFESS (heavy DB or barbell)',
   },
   hinge_d1: {
-    beginner:     'Romanian Deadlift — DB, 3s eccentric',
-    intermediate: 'Romanian Deadlift — barbell',
-    advanced:     'Single-Leg RDL — barbell or heavy KB',
+    beginner:     'Romanian Deadlift (DB, 3s down)',
+    intermediate: 'Romanian Deadlift (barbell)',
+    advanced:     'Single-Leg RDL (barbell or heavy KB)',
   },
   nordic_d1: {
-    beginner:     ['Nordic Hamstring Eccentric (band-assisted, 5s down — hands catch floor)',
-                   'Nordic Hamstring Eccentric (anchored, 5s down — use hands to return)',
-                   'Nordic Hamstring Eccentric (anchored, 4s down — minimal hand assist)'],
-    intermediate: ['Nordic Hamstring Eccentric (anchored, 5s down)',
-                   'Nordic Hamstring Eccentric (anchored, 4s down — controlled)',
-                   'Weighted Nordic (5-10kg plate held on chest, 4s eccentric)'],
-    advanced:     ['Nordic Hamstring Eccentric (bodyweight, 4s down)',
-                   'Weighted Nordic (10kg plate on chest, 4s eccentric)',
-                   'Weighted Nordic (12-15kg — progressed load from Block 2)'],
+    beginner:     ['Nordic Eccentric (band-assisted, 5s down)',
+                   'Nordic Eccentric (anchored, 5s down)',
+                   'Nordic Eccentric (anchored, 4s down)'],
+    intermediate: ['Nordic Eccentric (anchored, 5s down)',
+                   'Nordic Eccentric (anchored, 4s down)',
+                   'Weighted Nordic (5-10kg plate)'],
+    advanced:     ['Nordic Eccentric (bodyweight, 4s down)',
+                   'Weighted Nordic (10kg plate)',
+                   'Weighted Nordic (12-15kg)'],
   },
   copenh_d1: {
-    beginner:     ['Copenhagen Plank (short-lever — knee on bench, static hold)',
-                   'Copenhagen Plank (long-lever — foot on bench, static hold)',
-                   'Copenhagen Plank (long-lever, dynamic — raise/lower top leg, controlled)'],
-    intermediate: ['Copenhagen Plank (long-lever — foot on bench, static hold)',
-                   'Copenhagen Side Plank + Hip Adduction (dynamic, foot on bench)',
-                   'Copenhagen Dynamic + 5kg plate on hip'],
-    advanced:     ['Copenhagen Dynamic (long-lever — foot on bench, 8-10 reps)',
-                   'Copenhagen Dynamic + 10kg plate on hip',
-                   'Copenhagen Dynamic — heavy (12-15kg plate, controlled reps)'],
+    beginner:     ['Copenhagen Plank (short-lever hold)',
+                   'Copenhagen Plank (long-lever hold)',
+                   'Copenhagen Dynamic (controlled)'],
+    intermediate: ['Copenhagen Plank (long-lever hold)',
+                   'Copenhagen Dynamic',
+                   'Copenhagen Dynamic (+5kg on hip)'],
+    advanced:     ['Copenhagen Dynamic (long-lever)',
+                   'Copenhagen Dynamic (+10kg)',
+                   'Copenhagen Dynamic (+12-15kg)'],
   },
   power_d2: {
-    beginner:     ['Med Ball Chest Pass (seated, wall — 3kg)',
-                   'Med Ball Chest Pass (standing, wall — 3kg)',
-                   'Med Ball Chest Pass (standing, explosive reactive catch-and-throw — 3kg)'],
-    intermediate: ['Med Ball Chest Pass (standing, wall — 4kg)',
-                   'Med Ball Overhead Slam (max intent — 4-6kg)',
-                   'Med Ball Rotational Pass (GK dive-load pattern — 4-5kg)'],
-    advanced:     ['Med Ball Rotational Throw (wall — 5-6kg)',
-                   'Med Ball Overhead Slam (heavy — 6-8kg)',
-                   'Med Ball Rotational Throw + Step-off Entry (GK dive-load pattern — 5-6kg)'],
+    beginner:     ['Med Ball Chest Pass (seated, 3kg)',
+                   'Med Ball Chest Pass (standing, 3kg)',
+                   'Med Ball Chest Pass (reactive, 3kg)'],
+    intermediate: ['Med Ball Chest Pass (standing, 4kg)',
+                   'Med Ball Overhead Slam (4-6kg)',
+                   'Med Ball Rotational Pass (4-5kg)'],
+    advanced:     ['Med Ball Rotational Throw (5-6kg)',
+                   'Med Ball Overhead Slam (6-8kg)',
+                   'Med Ball Rotational Throw + step-off (5-6kg)'],
   },
   press_d2: {
     beginner:     'Barbell Bench Press',
@@ -129,95 +129,93 @@ const EX = {
                    'Push Press (heavy)'],
   },
   pull_d2: {
-    beginner:     ['Lat Pulldown (bilateral, full ROM)',
-                   'Lat Pulldown (bilateral)',
+    beginner:     ['Lat Pulldown',
+                   'Lat Pulldown',
                    'Assisted Pull-Up or Lat Pulldown'],
     intermediate: ['Seated Cable Row',
                    'Seated Cable Row',
-                   'Pull-Up (bodyweight or band-assisted)'],
+                   'Pull-Up'],
     advanced:     ['Weighted Pull-Up',
                    'Weighted Pull-Up',
                    'Barbell Bent-Over Row'],
   },
   core_antirot_d2: {
-    beginner:     ['Pallof Press (kneeling, band — 3s isometric hold per rep)',
-                   'Pallof Press (standing, band)',
-                   'Pallof Press (standing, band — slow controlled press-out)'],
-    intermediate: ['Pallof Press (standing, cable or band)',
-                   'Pallof Press + Press-out (cable, controlled)',
-                   'Pallof Press + Rotation (standing, cable — controlled)'],
-    advanced:     ['Pallof Press + Press-out (cable)',
-                   'Pallof Press + Rotation (cable)',
-                   'Single-Arm Cable Anti-Rotation Press + Rotation (heavy)'],
+    beginner:     ['Pallof Press (kneeling, 3s holds)',
+                   'Pallof Press (standing)',
+                   'Pallof Press (standing, slow)'],
+    intermediate: ['Pallof Press (standing)',
+                   'Pallof Press + press-out',
+                   'Pallof Press + rotation'],
+    advanced:     ['Pallof Press + press-out',
+                   'Pallof Press + rotation',
+                   'Single-Arm Cable Anti-Rotation (heavy)'],
   },
   core_antiext_d2: {
-    beginner:     ['Kneeling Plank (elbows — 3×30-40s hold)',
-                   'Ab Wheel Rollout (kneeling, short range)',
-                   'Ab Wheel Rollout (kneeling, full range)'],
+    beginner:     ['Plank (elbows, 30-40s)',
+                   'Ab Wheel Rollout (kneeling, short)',
+                   'Ab Wheel Rollout (kneeling)'],
     intermediate: ['Ab Wheel Rollout (kneeling)',
                    'Ab Wheel Rollout (kneeling, full range)',
-                   'Ab Wheel Rollout — attempt 1 standing rep at end of each set'],
-    advanced:     ['Ab Wheel Rollout (full kneeling range)',
-                   'Ab Wheel Rollout (standing, short range)',
-                   'Ab Wheel Rollout (standing, controlled full range)'],
+                   'Ab Wheel Rollout (try standing)'],
+    advanced:     ['Ab Wheel Rollout (kneeling, full range)',
+                   'Ab Wheel Rollout (standing, short)',
+                   'Ab Wheel Rollout (standing)'],
   },
   lat_power_d3: {
-    beginner:     ['Lateral Bound — bilateral takeoff → SL stick landing (submax)',
-                   'SL Lateral Bound (stick landing, both sides)',
-                   'SL Lateral Bound (continuous alternating — 3/side per set)'],
-    intermediate: ['SL Lateral Bound (stick landing, both sides)',
-                   'SL Lateral Bound (continuous alternating — 4/side)',
-                   'SL Lateral Bound → Sprint 5m (reactive transition)'],
-    advanced:     ['SL Lateral Bound (continuous alternating — 4/side)',
+    beginner:     ['Lateral Bound (stick landing)',
+                   'SL Lateral Bound (stick)',
+                   'SL Lateral Bound (continuous)'],
+    intermediate: ['SL Lateral Bound (stick)',
+                   'SL Lateral Bound (continuous)',
+                   'SL Lateral Bound → Sprint 5m'],
+    advanced:     ['SL Lateral Bound (continuous)',
                    'SL Lateral Bound → Sprint 5m',
-                   'Reactive Lateral Bound (coach-cue start — GK dive-entry pattern)'],
+                   'Reactive Lateral Bound (cue start)'],
   },
   hinge_d3: {
-    beginner:     ['Trap Bar Deadlift (light load, 3s eccentric — technique priority)',
-                   'Trap Bar Deadlift (moderate load, 2s eccentric)',
-                   'Trap Bar Deadlift (working load — explosive pull intent)'],
-    intermediate: ['Trap Bar Deadlift (3s eccentric)',
-                   'Trap Bar Deadlift (loaded, 2s eccentric)',
-                   'Trap Bar Deadlift (heavy — explosive concentric)'],
-    advanced:     ['Conventional Deadlift (3s eccentric)',
-                   'Conventional Deadlift (heavy, 2s eccentric)',
-                   'Conventional Deadlift (near-max — explosive intent)'],
+    beginner:     ['Trap Bar Deadlift (light, 3s down)',
+                   'Trap Bar Deadlift (moderate)',
+                   'Trap Bar Deadlift (explosive pull)'],
+    intermediate: ['Trap Bar Deadlift (3s down)',
+                   'Trap Bar Deadlift (2s down)',
+                   'Trap Bar Deadlift (heavy, explosive)'],
+    advanced:     ['Conventional Deadlift (3s down)',
+                   'Conventional Deadlift (heavy)',
+                   'Conventional Deadlift (near-max)'],
   },
   hip_thrust_d3: {
-    beginner:     'Hip Thrust — barbell, light-moderate load, 2s squeeze at top',
-    intermediate: 'Hip Thrust — barbell, moderate-heavy, drive fast through top',
-    advanced:     'Hip Thrust — heavy barbell, 1.5-rep method (full → halfway → full = 1 rep)',
+    beginner:     'Hip Thrust (barbell, 2s squeeze at top)',
+    intermediate: 'Hip Thrust (barbell, drive fast)',
+    advanced:     'Hip Thrust (heavy, 1.5-rep method)',
   },
   lat_squat_d3: {
-    beginner:     'Cossack Squat (bodyweight — full range of motion, controlled tempo)',
-    intermediate: 'Lateral Squat (DB loaded, 8-10/side)',
-    advanced:     'Lateral Squat (heavy DB or landmine, 6-8/side)',
+    beginner:     'Cossack Squat (bodyweight)',
+    intermediate: 'Lateral Squat (DB)',
+    advanced:     'Lateral Squat (heavy DB or landmine)',
   },
 };
 
-// Fixed shoulder series — same tag, same text, all tiers/blocks
-const SHOULDER_SERIES = '3-way shoulder series: Band External Rotation ×15 + Face Pull ×15 + W-Raise ×12 — light load only, no grinding, full ROM every rep';
+const SHOULDER_SERIES = 'Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12';
 
-// GK reactive drills per block — all solo/cone-based, no partner required
+// GK reactive drills per block — solo/cone-based, no partner needed
 const GK_REACTIVE = [
-  'Lateral Cone Shuffle Drill — 5m apart, touch each cone, change direction sharp (6 reps × 5m, self-paced)',
-  'Low Box Lateral Drop → Dive and Return — step off low box, lateral dive to ground, getup, reset (6 reps/side)',
-  'GK Dive-Recovery Circuit — full dive to ground → getup fast → lateral sprint to cone → reset (8 reps, 30s between)',
+  'Lateral Cone Shuffle (5m, sharp cuts)',
+  'Box Drop → Lateral Dive + Getup',
+  'Dive-Recovery Circuit (dive, getup, sprint 5m)',
 ];
 
-// Conditioning finisher for Day 3 per block
 const CONDITIONING = [
-  '4×30s lateral shuffle shuttles @ RPE 6 (1:2 work:rest) — 5m cone-to-cone, feet stay in contact with ground',
-  '6×20s lateral agility (T-drill variation) @ RPE 7-8 (1:3 work:rest) — plant-and-cut quality over raw speed',
-  '8×10s reactive sprint (partner-cue start) @ max intent (1:4 work:rest) — full CNS recovery between reps',
+  '4×30s lateral shuttles @ RPE 6 (1:2 rest)',
+  '6×20s T-drill cuts @ RPE 7-8 (1:3 rest)',
+  '8×10s reactive sprints @ max (1:4 rest)',
 ];
 
-const PRIMER_D1 = 'Warm-up (~12min): 3min row/bike or jog. Hip mobility: world\'s greatest stretch 5/side, hip 90/90 switch ×10, leg swings ×10/direction. Activation: glute bridge 2×15s, mini-band squat ×15, tempo box squat ×5 BW. Bar warm-up on squat: empty bar ×8, 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets — technique before load.';
-const PRIMER_D2 = 'Warm-up (~10min): 3min row or jog. Shoulder: arm circles ×10, band pull-apart ×15, shoulder CARs 5/side. Activation: face pull ×15 (light), push-up plus ×10, scap push-up ×10. Bar warm-up on press: empty bar ×10, 40%×5, 60%×3. ⚠️ U13-U14: cap RPE at 7 on all compound loaded sets.';
-const PRIMER_D3 = 'Warm-up (~12min): 3min lateral shuffle or bike. Mobility: hip 90/90 ×10/side, adductor rock-back ×10, ankle CARs. Activation: lateral band walk ×15/side, SL glute bridge ×12/side. Bar warm-up on hinge: 40%×5, 60%×3, 75%×2. ⚠️ U13-U14: cap RPE at 7 on all loaded sets — omit lateral bound (replace with lateral shuffle) until U14+.';
+const PRIMER_D1 = 'Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.';
+const PRIMER_D2 = 'Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.';
+const PRIMER_D3 = 'Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.';
 
 function getEx(obj, tier, blockIdx) {
-  const v = obj[tier] !== undefined ? obj[tier] : obj.all;
+  const v = obj[tier];
   return Array.isArray(v) ? v[blockIdx] : v;
 }
 
@@ -239,9 +237,9 @@ function rpeSecondary(tier, blockId, wIdx) {
 }
 
 function tempoNote(blockId) {
-  if (blockId === 1) return 'Tempo 3-1-1 (3s eccentric, 1s pause, 1s up) — eccentric overload phase.';
-  if (blockId === 2) return 'X:3:X tempo — pause 3s at sticking point, do not bounce. RFD phase.';
-  return 'Explosive concentric intent every rep — power realization phase. Bar speed matters.';
+  if (blockId === 1) return '3-1-1 tempo — 3s down, 1s pause.';
+  if (blockId === 2) return 'Pause 3s at sticking point.';
+  return 'Explosive intent — bar speed.';
 }
 
 function buildDay1(tier, block, wIdx) {
@@ -253,60 +251,30 @@ function buildDay1(tier, block, wIdx) {
   const [hs, hr] = adj(tier, BASE.hinge[bId][wIdx]);
   const [ns, nr] = adj(tier, BASE.nordic[bId][wIdx]);
   const [cs, cr] = adj(tier, BASE.copenh[bId][wIdx]);
-  const coholdNote = (tier === 'beginner' && bId === 1);
+  const cohold = (tier === 'beginner' && bId === 1);
   return {
     day: 'Day 1', title: 'Lower Strength + Power',
     meta: '~75-85min',
     primer: PRIMER_D1,
     slots: [
-      {
-        tag: 'Power',
-        exercise: getEx(EX.power_d1, tier, bId - 1),
-        sets: ps, reps: pr,
-        load: deload ? 'Submax — quality focus only' : `${rpeStr(tier, bId, wIdx)} intent (near-max effort)`,
-        rest: REST.power,
-        notes: 'Full CNS recovery between reps — this is not conditioning. Reset, then go.',
-      },
-      {
-        tag: 'Squat',
-        exercise: getEx(EX.squat_d1, tier, bId - 1),
-        sets: ss, reps: sr,
-        load: rpeStr(tier, bId, wIdx),
-        rest: REST.squat,
-        notes: tempoNote(bId),
-      },
-      {
-        tag: 'Unilateral',
-        exercise: getEx(EX.rfess_d1, tier, bId - 1),
-        sets: us, reps: `${ur}/side`,
-        load: rpeSecondary(tier, bId, wIdx),
-        rest: REST.unilateral,
-        notes: 'GK dive push-off pattern. Front foot flat, rear foot on bench. Control descent.',
-      },
-      {
-        tag: 'Hinge',
-        exercise: getEx(EX.hinge_d1, tier, bId - 1),
-        sets: hs, reps: hr,
-        load: rpeSecondary(tier, bId, wIdx),
-        rest: REST.hinge,
-        notes: bId === 1 ? 'Hip hinge, not back bend. Bar/DB stays close. 3s eccentric.' : bId === 2 ? 'Pause at bottom. Control the eccentric, drive through heels.' : 'Explosive hip extension intent. Bar speed on the way up.',
-      },
-      {
-        tag: 'Prehab — Nordic',
-        exercise: getEx(EX.nordic_d1, tier, bId - 1),
-        sets: ns, reps: nr,
-        load: 'Bodyweight (or band-assist for Beginner)',
-        rest: REST.nordic,
-        notes: 'Never skip. Primary hamstring injury-prevention work. Quality of eccentric > reps. Hands catch floor on failure.',
-      },
-      {
-        tag: 'Prehab — Copenhagen',
-        exercise: getEx(EX.copenh_d1, tier, bId - 1),
-        sets: cs, reps: coholdNote ? `${cr}s hold/side` : `${cr}/side`,
-        load: 'Bodyweight (+ load as specified)',
-        rest: REST.copenh,
-        notes: 'Groin/adductor durability — high injury risk in GKs. Progress deliberately through the ladder.',
-      },
+      { tag: 'Power', exercise: getEx(EX.power_d1, tier, bId - 1), sets: ps, reps: pr,
+        load: deload ? 'Submax' : 'Max intent', rest: REST.power,
+        notes: 'Full rest between reps — quality, not conditioning.' },
+      { tag: 'Squat', exercise: getEx(EX.squat_d1, tier, bId - 1), sets: ss, reps: sr,
+        load: rpeStr(tier, bId, wIdx), rest: REST.squat, notes: tempoNote(bId) },
+      { tag: 'Unilateral', exercise: getEx(EX.rfess_d1, tier, bId - 1), sets: us, reps: `${ur}/side`,
+        load: rpeSecondary(tier, bId, wIdx), rest: REST.unilateral,
+        notes: 'Dive push-off pattern. Control the descent.' },
+      { tag: 'Hinge', exercise: getEx(EX.hinge_d1, tier, bId - 1), sets: hs, reps: hr,
+        load: rpeSecondary(tier, bId, wIdx), rest: REST.hinge,
+        notes: 'Hinge at hip, bar stays close.' },
+      { tag: 'Prehab — Nordic', exercise: getEx(EX.nordic_d1, tier, bId - 1), sets: ns, reps: nr,
+        load: 'Bodyweight', rest: REST.nordic,
+        notes: 'Never skip — #1 hamstring protection.' },
+      { tag: 'Prehab — Copenhagen', exercise: getEx(EX.copenh_d1, tier, bId - 1), sets: cs,
+        reps: cohold ? `${cr}s hold/side` : `${cr}/side`,
+        load: 'Bodyweight', rest: REST.copenh,
+        notes: 'Groin durability — progress slow.' },
     ],
   };
 }
@@ -327,54 +295,24 @@ function buildDay2(tier, block, wIdx) {
     meta: '~65-75min',
     primer: PRIMER_D2,
     slots: [
-      {
-        tag: 'Power',
-        exercise: getEx(EX.power_d2, tier, bId - 1),
-        sets: ps, reps: pr,
-        load: deload ? 'Submax — quality focus' : 'Max intent per throw — reset grip between reps',
-        rest: REST.power,
-        notes: 'Upper body explosive work. Reset body position fully between reps.',
-      },
-      {
-        tag: 'Press',
-        exercise: pressEx,
-        sets: prs, reps: prr,
-        load: rpeStr(tier, bId, wIdx),
-        rest: REST.press,
-        notes: isPushPress ? 'Push press: dip-drive-catch. Slight knee bend → explosive hip extension → press. Catch with elbows through.' : tempoNote(bId),
-      },
-      {
-        tag: 'Pull',
-        exercise: getEx(EX.pull_d2, tier, bId - 1),
-        sets: pls, reps: plr,
-        load: rpeSecondary(tier, bId, wIdx),
-        rest: REST.pull,
-        notes: 'Scapula retract and depress first. Elbows drive down and back — not arms pulling.',
-      },
-      {
-        tag: 'Shoulder Health',
-        exercise: SHOULDER_SERIES,
-        sets: shs, reps: shr,
-        load: 'Light — RPE 5-6 max',
-        rest: REST.shoulder,
-        notes: 'GK overhead demand is high. This is injury prevention, not strength work. Never grind through range of motion.',
-      },
-      {
-        tag: 'Core — Anti-Rot',
-        exercise: getEx(EX.core_antirot_d2, tier, bId - 1),
-        sets: ars, reps: `${arr}/side`,
-        load: 'Light-moderate band or cable',
-        rest: REST.core_antirot,
-        notes: 'Resist the rotation — don\'t move the spine. GK core has to resist dive-force and landing torque.',
-      },
-      {
-        tag: 'Core — Anti-Ext',
-        exercise: getEx(EX.core_antiext_d2, tier, bId - 1),
-        sets: aes, reps: aer,
-        load: 'Bodyweight',
-        rest: REST.core_antiext,
-        notes: 'Rib cage down, glutes squeezed throughout. Do not let lower back arch — quality over range.',
-      },
+      { tag: 'Power', exercise: getEx(EX.power_d2, tier, bId - 1), sets: ps, reps: pr,
+        load: deload ? 'Submax' : 'Max intent', rest: REST.power,
+        notes: 'Full reset between throws.' },
+      { tag: 'Press', exercise: pressEx, sets: prs, reps: prr,
+        load: rpeStr(tier, bId, wIdx), rest: REST.press,
+        notes: isPushPress ? 'Dip-drive-press. Catch with elbows through.' : tempoNote(bId) },
+      { tag: 'Pull', exercise: getEx(EX.pull_d2, tier, bId - 1), sets: pls, reps: plr,
+        load: rpeSecondary(tier, bId, wIdx), rest: REST.pull,
+        notes: 'Scaps first, elbows down and back.' },
+      { tag: 'Shoulder Health', exercise: SHOULDER_SERIES, sets: shs, reps: shr,
+        load: 'Light (RPE 5-6)', rest: REST.shoulder,
+        notes: 'Injury prevention — never grind.' },
+      { tag: 'Core — Anti-Rot', exercise: getEx(EX.core_antirot_d2, tier, bId - 1), sets: ars, reps: `${arr}/side`,
+        load: 'Light-moderate', rest: REST.core_antirot,
+        notes: 'Resist rotation — spine stays still.' },
+      { tag: 'Core — Anti-Ext', exercise: getEx(EX.core_antiext_d2, tier, bId - 1), sets: aes, reps: aer,
+        load: 'Bodyweight', rest: REST.core_antiext,
+        notes: 'Ribs down, no back arch.' },
     ],
   };
 }
@@ -386,64 +324,30 @@ function buildDay3(tier, block, wIdx) {
   const [hs, hr] = adj(tier, BASE.hinge[bId][wIdx]);
   const [hts, htr] = adj(tier, BASE.hip_thrust[bId][wIdx]);
   const [lss, lsr] = adj(tier, BASE.lat_squat[bId][wIdx]);
-  const condStr = deload
-    ? '3×20s lateral shuffle @ RPE 5 — movement quality only, no fatigue target'
-    : CONDITIONING[bId - 1];
-  // GK reactive: fixed per block, use BASE-derived sets for structure
-  const [grs] = adj(tier, [bId === 1 ? 2 : 3, 0]); // sets scale slightly with tier
+  const condStr = deload ? '3×20s easy shuffle @ RPE 5' : CONDITIONING[bId - 1];
+  const [grs] = adj(tier, [bId === 1 ? 2 : 3, 0]);
   return {
     day: 'Day 3', title: 'Full Body Power + GK Movement',
     meta: '~70-80min',
     primer: PRIMER_D3,
     slots: [
-      {
-        tag: 'Lateral Power',
-        exercise: getEx(EX.lat_power_d3, tier, bId - 1),
-        sets: lps, reps: `${lpr}/side`,
-        load: deload ? 'Submax — stick and absorb only' : 'Max lateral effort — stick the landing',
-        rest: REST.lat_power,
-        notes: 'GK push-off power. Land softly, absorb force. Reactive version = first-step cue response.',
-      },
-      {
-        tag: 'Hinge',
-        exercise: getEx(EX.hinge_d3, tier, bId - 1),
-        sets: hs, reps: hr,
-        load: rpeStr(tier, bId, wIdx),
-        rest: REST.hinge,
-        notes: tempoNote(bId) + ' Hinge at hip, bar stays close. Braced through entire rep.',
-      },
-      {
-        tag: 'Hip Power',
-        exercise: getEx(EX.hip_thrust_d3, tier, bId - 1),
-        sets: hts, reps: htr,
-        load: rpeSecondary(tier, bId, wIdx),
-        rest: REST.hip_thrust,
-        notes: 'Full hip extension at top — 2s hold. Hip extension power directly transfers to aerial duels and ground recovery.',
-      },
-      {
-        tag: 'Lateral Pattern',
-        exercise: getEx(EX.lat_squat_d3, tier, bId - 1),
-        sets: lss, reps: `${lsr}/side`,
-        load: 'Quality over load — upright torso',
-        rest: REST.lat_squat,
-        notes: 'Lateral hip and groin strength. Keep heel down on bending leg. Don\'t rush through range.',
-      },
-      {
-        tag: 'GK Reactive',
-        exercise: GK_REACTIVE[bId - 1],
-        sets: grs, reps: 'per drill',
-        load: '—',
-        rest: '90s',
-        notes: 'GK movement quality — not conditioning. Sharp reactions, full reset between reps.',
-      },
-      {
-        tag: 'Conditioning',
-        exercise: condStr,
-        sets: '—', reps: '—',
-        load: 'Per protocol above',
-        rest: 'Per protocol',
-        notes: 'Finisher only — do not grind into next-day soreness. Stop if form breaks.',
-      },
+      { tag: 'Lateral Power', exercise: getEx(EX.lat_power_d3, tier, bId - 1), sets: lps, reps: `${lpr}/side`,
+        load: deload ? 'Submax' : 'Max effort', rest: REST.lat_power,
+        notes: 'Push-off power. Stick every landing.' },
+      { tag: 'Hinge', exercise: getEx(EX.hinge_d3, tier, bId - 1), sets: hs, reps: hr,
+        load: rpeStr(tier, bId, wIdx), rest: REST.hinge, notes: tempoNote(bId) },
+      { tag: 'Hip Power', exercise: getEx(EX.hip_thrust_d3, tier, bId - 1), sets: hts, reps: htr,
+        load: rpeSecondary(tier, bId, wIdx), rest: REST.hip_thrust,
+        notes: 'Full extension, 2s hold at top.' },
+      { tag: 'Lateral Pattern', exercise: getEx(EX.lat_squat_d3, tier, bId - 1), sets: lss, reps: `${lsr}/side`,
+        load: 'Quality over load', rest: REST.lat_squat,
+        notes: 'Heel down, torso tall.' },
+      { tag: 'GK Reactive', exercise: GK_REACTIVE[bId - 1], sets: grs, reps: bId === 1 ? '6' : bId === 2 ? '6/side' : '8',
+        load: '—', rest: '90s',
+        notes: 'Movement quality — full reset between reps.' },
+      { tag: 'Conditioning', exercise: condStr, sets: '—', reps: '—',
+        load: 'Per protocol', rest: 'Per protocol',
+        notes: 'Finisher — stop if form breaks.' },
     ],
   };
 }
@@ -459,11 +363,7 @@ for (const tier of TIERS) {
       data.tiers[tier].weeks[weekNum] = {
         blockId: block.id,
         deload: wIdx === 3,
-        sessions: [
-          buildDay1(tier, block, wIdx),
-          buildDay2(tier, block, wIdx),
-          buildDay3(tier, block, wIdx),
-        ],
+        sessions: [buildDay1(tier, block, wIdx), buildDay2(tier, block, wIdx), buildDay3(tier, block, wIdx)],
       };
     });
   }
