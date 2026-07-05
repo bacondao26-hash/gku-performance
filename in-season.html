@@ -20,9 +20,8 @@
       <a href="off-season.html">Off-Season</a>
       <a href="in-season.html">In-Season</a>
       <a href="testing-guide.html">Testing</a>
-      <a href="exercise-library.html">Exercise Library</a>
     </nav>
-    <div class="pb-credit">Programmed by <b>Performance Bacon</b></div>
+    <div class="pb-credit">Programmed by <b>Performance Bacon</b> · <a class="ig-link" href="https://instagram.com/performance.bacon" target="_blank" rel="noopener">@performance.bacon</a></div>
   </div>
 </header>
 
@@ -68,6 +67,7 @@
 <footer>
   <div class="wrap">
     GKU × Performance Bacon — In-Season Program. Stop and get evaluated for sharp pain, joint instability, or numbness/tingling — do not train through red flags.
+    <br><a class="ig-link" href="https://instagram.com/performance.bacon" target="_blank" rel="noopener">Follow @performance.bacon on Instagram</a>
   </div>
 </footer>
 
@@ -118,7 +118,7 @@
       div.dataset.sessionId = id;
 
       var rows = sess.slots.map(function (s) {
-        return '<tr><td><span class="slot-tag">' + s.tag + '</span>' + s.exercise + '</td>' +
+        return '<tr><td><span class="slot-tag">' + s.tag + '</span>' + gkuExLink(s.exercise) + '</td>' +
           '<td>' + s.sets + '</td><td>' + s.reps + '</td><td>' + s.load + '</td><td>' + s.rest + '</td>' +
           '<td class="notes">' + s.notes + '</td></tr>';
       }).join('');

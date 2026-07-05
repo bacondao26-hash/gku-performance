@@ -60,13 +60,10 @@ function gkuInitTiers(onChange) {
   return active ? active.dataset.tier : tabs[0].dataset.tier;
 }
 
-/* ---------- Exercise library search ---------- */
-function gkuInitLibrarySearch(inputEl, cardsSelector) {
-  inputEl.addEventListener('input', function () {
-    var q = inputEl.value.toLowerCase();
-    document.querySelectorAll(cardsSelector).forEach(function (card) {
-      var hay = card.textContent.toLowerCase();
-      card.style.display = hay.indexOf(q) > -1 ? '' : 'none';
-    });
-  });
+/* ---------- Exercise demo link (YouTube search) ---------- */
+function gkuExLink(name) {
+  if (name.indexOf('@') > -1) return name; // conditioning protocol string, not an exercise name
+  var searchName = name.split('(')[0].split('—')[0].split(':')[0].trim();
+  if (!searchName) return name;
+  return '<a href="https://www.youtube.com/results?search_query=' + encodeURIComponent(searchName + ' exercise demo') + '" target="_blank" rel="noopener" class="ex-link" title="Watch demo">' + name + '</a>';
 }
