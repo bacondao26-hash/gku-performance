@@ -197,6 +197,14 @@ const EX = {
 
 const SHOULDER_SERIES = 'Shoulder series: Band ER 15 + Face Pull 15 + W-Raise 12';
 
+// Acceleration work per block — first slot Day 3, CNS fresh
+const SPEED_D3 = [
+  '10m Accel Sprint (2-point stance, build to ~90%)',
+  '10m Accel Sprint (GK set position start)',
+  '10m Reactive Sprint (self-cue: drop ball, chase)',
+];
+const SPEED_SETS = { 1: [2, 3], 2: [3, 3], 3: [3, 3] }; // [sets, reps of 10m]
+
 // GK reactive drills per block — solo/cone-based, no partner needed
 const GK_REACTIVE = [
   'Lateral Cone Shuffle (5m, sharp cuts)',
@@ -212,7 +220,7 @@ const CONDITIONING = [
 
 const PRIMER_D1 = 'Warm-up ~12min: bike/jog 3min · hips (90/90, leg swings) · glutes (bridge, mini-band) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.';
 const PRIMER_D2 = 'Warm-up ~10min: row 3min · shoulders (circles, pull-aparts, face pulls) · bar ramp-up. ⚠️ U13-U14: RPE cap 7.';
-const PRIMER_D3 = 'Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.';
+const PRIMER_D3 = 'Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.';
 
 function getEx(obj, tier, blockIdx) {
   const v = obj[tier];
@@ -327,10 +335,14 @@ function buildDay3(tier, block, wIdx) {
   const condStr = deload ? '3×20s easy shuffle @ RPE 5' : CONDITIONING[bId - 1];
   const [grs] = adj(tier, [bId === 1 ? 2 : 3, 0]);
   return {
-    day: 'Day 3', title: 'Full Body Power + GK Movement',
-    meta: '~70-80min',
+    day: 'Day 3', title: 'Speed + Power + GK Movement',
+    meta: '~75-85min',
     primer: PRIMER_D3,
     slots: [
+      { tag: 'Speed', exercise: SPEED_D3[bId - 1],
+        sets: deload ? 2 : SPEED_SETS[bId][0], reps: `${SPEED_SETS[bId][1]}×10m`,
+        load: deload ? '~80% effort' : bId === 1 ? 'Build to ~90%' : 'Max intent', rest: '90s-2min',
+        notes: 'Walk back = rest. Stop if times/feel degrade.' },
       { tag: 'Lateral Power', exercise: getEx(EX.lat_power_d3, tier, bId - 1), sets: lps, reps: `${lpr}/side`,
         load: deload ? 'Submax' : 'Max effort', rest: REST.lat_power,
         notes: 'Push-off power. Stick every landing.' },

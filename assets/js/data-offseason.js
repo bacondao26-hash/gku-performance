@@ -168,10 +168,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Lateral Bound (stick landing)",
@@ -360,10 +369,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Lateral Bound (stick landing)",
@@ -552,10 +570,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Lateral Bound (stick landing)",
@@ -744,10 +771,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Lateral Bound (stick landing)",
@@ -936,10 +972,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -1128,10 +1173,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -1320,10 +1374,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -1512,10 +1575,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -1704,10 +1776,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -1896,10 +1977,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -2088,10 +2178,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -2280,10 +2379,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -2511,10 +2619,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -2703,10 +2820,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -2895,10 +3021,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -3087,10 +3222,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (stick)",
@@ -3279,10 +3423,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -3471,10 +3624,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -3663,10 +3825,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -3855,10 +4026,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -4047,10 +4227,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -4239,10 +4428,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -4431,10 +4629,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -4623,10 +4830,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -4854,10 +5070,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -5046,10 +5271,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -5238,10 +5472,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "Build to ~90%",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -5430,10 +5673,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (2-point stance, build to ~90%)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound (continuous)",
@@ -5622,10 +5874,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -5814,10 +6075,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -6006,10 +6276,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -6198,10 +6477,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Accel Sprint (GK set position start)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "SL Lateral Bound → Sprint 5m",
@@ -6390,10 +6678,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Reactive Lateral Bound (cue start)",
@@ -6582,10 +6879,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Reactive Lateral Bound (cue start)",
@@ -6774,10 +7080,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 3,
+                  "reps": "3×10m",
+                  "load": "Max intent",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Reactive Lateral Bound (cue start)",
@@ -6966,10 +7281,19 @@ window.OFFSEASON_DATA = {
             },
             {
               "day": "Day 3",
-              "title": "Full Body Power + GK Movement",
-              "meta": "~70-80min",
-              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · bar ramp-up. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles.",
+              "title": "Speed + Power + GK Movement",
+              "meta": "~75-85min",
+              "primer": "Warm-up ~12min: shuffle/bike 3min · hips + ankles · band walks, SL bridge · 2-3 build-up runs before sprints. ⚠️ U13-U14: RPE cap 7, swap bounds for shuffles, max ~60 jump/bound contacts.",
               "slots": [
+                {
+                  "tag": "Speed",
+                  "exercise": "10m Reactive Sprint (self-cue: drop ball, chase)",
+                  "sets": 2,
+                  "reps": "3×10m",
+                  "load": "~80% effort",
+                  "rest": "90s-2min",
+                  "notes": "Walk back = rest. Stop if times/feel degrade."
+                },
                 {
                   "tag": "Lateral Power",
                   "exercise": "Reactive Lateral Bound (cue start)",
